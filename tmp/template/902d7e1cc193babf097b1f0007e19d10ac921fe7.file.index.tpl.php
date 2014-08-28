@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-22 13:51:10
+<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 16:29:17
          compiled from "/var/www/proindusquim/views/servicios/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4037023153f78efb3d9c92-33711648%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '902d7e1cc193babf097b1f0007e19d10ac921fe7' => 
     array (
       0 => '/var/www/proindusquim/views/servicios/index.tpl',
-      1 => 1408733466,
+      1 => 1409261354,
       2 => 'file',
     ),
   ),
@@ -43,6 +43,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</script>
 </div>
 <!-- fin slider en todas las páginas-->
+</div>
+<!-- fin contenedor de layout de trabajo que viene del template-->
 <!-- inicio contenedor noticias -->
 <div id="contenedor_contenido_dinamico">
     <!-- inicio noticias página principal -->
@@ -52,7 +54,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div id="features">
                 <div>
                     <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
+views/servicios/img/hecho_ecuador.png" alt="Eddie" class="eddie" />   
                     <p>La Línea de Servicios Especiales mantiene nuestros estándares de calidad y seguridad, y está enfocada a aquellas áreas muy particulares de la industria.</p>
                     <p>Dentro de nuestros principales desarrollos tenemos los siguientes:</p><br/>
                     <ul>

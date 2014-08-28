@@ -1,25 +1,65 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 12:05:30
+         compiled from "/var/www/proindusquim/views/layout/default2/template.tpl" */ ?>
+<?php /*%%SmartyHeaderCode:8474155053ff59dd781637-29088584%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+$_valid = $_smarty_tpl->decodeProperties(array (
+  'file_dependency' => 
+  array (
+    'fce977e988c30065b6206aaaad6b28e3d42e0315' => 
+    array (
+      0 => '/var/www/proindusquim/views/layout/default2/template.tpl',
+      1 => 1409245474,
+      2 => 'file',
+    ),
+  ),
+  'nocache_hash' => '8474155053ff59dd781637-29088584',
+  'function' => 
+  array (
+  ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_53ff59dd7f9002_31329236',
+  'variables' => 
+  array (
+    'titulo' => 0,
+    '_layoutParams' => 0,
+    'js' => 0,
+    '_error' => 0,
+    '_mensaje' => 0,
+    '_contenido' => 0,
+  ),
+  'has_nocache_code' => false,
+),false); /*/%%SmartyHeaderCode%%*/?>
+<?php if ($_valid && !is_callable('content_53ff59dd7f9002_31329236')) {function content_53ff59dd7f9002_31329236($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
     <head>
-        <title>{$titulo|default:"Sin titulo"}</title>
+        <title><?php echo (($tmp = @$_smarty_tpl->tpl_vars['titulo']->value)===null||$tmp==='' ? "Sin titulo" : $tmp);?>
+</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
-        <link rel="shortcut icon" href="{$_layoutParams.root}public/img/proindusquim.ico">
-        <link href="{$_layoutParams.ruta_css}estilos.css" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/proindusquim.ico">
+        <link href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['ruta_css'];?>
+estilos.css" rel="stylesheet" type="text/css" />
         
-        <!-- librerías para el slider principal-->
-        <script type="text/javascript" src="{$_layoutParams.root}public/js/jquery-1-6-4.js"></script>
-	<script src="{$_layoutParams.root}public/js/jquery.easing.min-1-3.js"></script>
-	<script type="text/javascript" src="{$_layoutParams.root}public/js/jquery.zaccordion.js"></script>
-        <!-- fin librerías slider principal-->
-        {if isset($_layoutParams.js) && count($_layoutParams.js)}
-        {foreach item=js from=$_layoutParams.js}
+        <!-- librerías para galeria de videos-->
+        <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/js/jquery-1-9-1.js"></script>
+        <!-- Add fancyBox -->
+        <!-- Estas librerias son importadas por el framework-->
+        <!-- -->
+        <!-- fin librerías galeria de videos-->
+        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])){?>
+        <?php  $_smarty_tpl->tpl_vars['js'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['js']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['js']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['js']->key => $_smarty_tpl->tpl_vars['js']->value){
+$_smarty_tpl->tpl_vars['js']->_loop = true;
+?>
         
-        <script src="{$js}" type="text/javascript"></script>
+        <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
+" type="text/javascript"></script>
         
-        {/foreach}
-        {/if}
+        <?php } ?>
+        <?php }?>
     </head>
 
     <body>
@@ -43,7 +83,8 @@
                 <!-- fin menu principal-->
                 <!-- logotipo empresa-->
                 <div id="logotipo">
-                    <img src="{$_layoutParams.root}public/img/logotipo_proindusquim.jpg" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/logotipo_proindusquim.jpg" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
                 </div>
                 <!-- cierre logotipo empresa -->
              </header>
@@ -51,21 +92,24 @@
 
                 <noscript><p>Para el correcto funcionamiento debe tener el soporte para javascript habilitado</p></noscript>
 
-		        {if isset($_error)}
+		        <?php if (isset($_smarty_tpl->tpl_vars['_error']->value)){?>
 		            <div id="_errl" class="alert alert-error">
 		                <a class="close" data-dismiss="alert">x</a>
-		                {$_error}
-		            </div>
-		        {/if}
+		                <?php echo $_smarty_tpl->tpl_vars['_error']->value;?>
 
-		        {if isset($_mensaje)}
+		            </div>
+		        <?php }?>
+
+		        <?php if (isset($_smarty_tpl->tpl_vars['_mensaje']->value)){?>
 		            <div id="_msgl" class="alert alert-success">
 		                <a class="close" data-dismiss="alert">x</a>
-		                {$_mensaje}
-		            </div>
-		        {/if}
+		                <?php echo $_smarty_tpl->tpl_vars['_mensaje']->value;?>
 
-		        {include file=$_contenido}
+		            </div>
+		        <?php }?>
+
+		        <?php echo $_smarty_tpl->getSubTemplate ($_smarty_tpl->tpl_vars['_contenido']->value, $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+
 
 
 <!--        </div> -->
@@ -75,11 +119,13 @@
             <div id="contenedor_footer">
                 <div id="left-footer">
                     <div id="contenedor_logotipos" class="centrado" style="margin-bottom:20px;">
-                        <img class="centrado" src="{$_layoutParams.root}public/img/logotipo_proindusquim_p.jpg" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
+                        <img class="centrado" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/logotipo_proindusquim_p.jpg" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
                     </div>
                     <div class="subtitulo-3 verde_obscuro centrado">PROINDUSQUIM S.A.</div> <p class="centrado">Es una empresa dedicada a la fabricación y comercialización de productos químicos.</p>
                     <div id="contenedor_logotipos" class="centrado" style="margin-bottom:20px;">
-                        <img class="centrado" src="{$_layoutParams.root}public/img/responsible-care.png" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
+                        <img class="centrado" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/responsible-care.png" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
                     </div>
                 </div>
                 <div id="left-footer">
@@ -115,10 +161,11 @@
                 </div>
 
                 <div id="foot">
-                    <img src="{$_layoutParams.root}public/img/responsible_care_collage_proindusquim.jpg" />
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/responsible_care_collage_proindusquim.jpg" />
                 </div>
             </div>
         </footer>
         <!-- fin footer-->
     </body>
-</html>
+</html><?php }} ?>

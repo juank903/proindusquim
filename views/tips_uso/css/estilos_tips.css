@@ -1,0 +1,25 @@
+#banner_principal{
+position: relative;
+margin-top:90px;
+width: 1100px;
+height: 114px;
+background: url('../img/tips_uso_proindusquim.jpg');
+margin-bottom: 10px;
+}
+#contenedor_barra_videos{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+display:table;    
+width: 1100px;
+overflow: hidden;
+background-color: white;
+-webkit-box-shadow: 3px 3px 15px #000;
+-moz-box-shadow: 10px 10px 5px #000;
+filter: shadow(color=#000000, direction=135, strength=2);    
+margin-bottom: 50px;;
+}
+#barra_videos{
+width: 840px;
+margin: 30px auto;
+}

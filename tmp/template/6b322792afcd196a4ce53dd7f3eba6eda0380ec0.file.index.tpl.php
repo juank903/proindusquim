@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-22 13:49:08
+<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 16:34:41
          compiled from "/var/www/proindusquim/views/responsabilidad/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:21688321353f760b0545f54-94905348%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6b322792afcd196a4ce53dd7f3eba6eda0380ec0' => 
     array (
       0 => '/var/www/proindusquim/views/responsabilidad/index.tpl',
-      1 => 1408733338,
+      1 => 1409261676,
       2 => 'file',
     ),
   ),
@@ -49,6 +49,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 	</script>
 </div>
 <!-- fin slider en todas las páginas-->
+</div>
+<!-- fin contenedor de layout de trabajo que viene del template-->
 <!-- inicio contenedor noticias -->
 <div id="contenedor_contenido_dinamico">
     <!-- inicio noticias página principal -->
@@ -58,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div id="features">
                 <div>
                     <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
+views/responsabilidad/img/responsible_care.png" alt="Eddie" class="eddie" />   
                     <p>En 1999, la Asociación de Productores Químicos del Ecuador - APROQUE, Organización de Derecho Privado sin fines de lucro, inicia la coordinación en el país del Proceso Responsible Care,con la finalidad de fomentar el desarrollo industrial y empresarial con un alto nivel de eficacia basada en el principio de sostenibilidad.</p>
                     <p>Responsible Care , es una iniciativa voluntaria de la industria química global, hacia la mejora continua de la gestión ambiental, seguridad y salud en el trabajo, fomentando la comunicación con sus grupos de interés sobre sus produtos y procesos.</p>
                     <p>Es también un referente ético que permite la creación de productos que contribuyen a un mañana sostenible.</p>

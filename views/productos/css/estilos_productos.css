@@ -14,9 +14,9 @@ border-radius: 10spx;
 .menu_slider{
 position:absolute;
 width:420px;
-height:70px;
-font-size:1.3em;
-margin: 180px 0 0 -150px;
+height:60px;
+font-size:1.6em;
+margin: 180px 0 0 -140px;
 -webkit-transform: rotate(270deg);
 -moz-transform: rotate(270deg);
 rotation: 270deg;
@@ -24,12 +24,11 @@ filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .texto_menu_slider{
 vertical-align: middle;
-width:120px;
-height: 100px;
 margin-left:10px;
 }
 .frame-0 {background:#8FA968;}
 .frame-1 {background:#BFE18B;}
 .frame-2 {background:#CAE5A1;}
+.frame-3 {background:#eefdd5;}
 .frame-closed .frame-content {display:none;}
 .frame-open .frame-content {display:block;}

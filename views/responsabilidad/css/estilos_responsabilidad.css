@@ -1,8 +1,8 @@
 #slider{
 position: relative;
-margin-top:150px;
-background: #595959;
-margin-bottom: 50px;
+margin-top:90px;
+/*background: #595959;*/
+margin-bottom: 10px;
 }
 #slider ul{
 position:absolute;

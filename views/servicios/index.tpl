@@ -14,6 +14,8 @@
 	</script>
 </div>
 <!-- fin slider en todas las páginas-->
+</div>
+<!-- fin contenedor de layout de trabajo que viene del template-->
 <!-- inicio contenedor noticias -->
 <div id="contenedor_contenido_dinamico">
     <!-- inicio noticias página principal -->
@@ -22,7 +24,7 @@
         <div id="demo">
             <div id="features">
                 <div>
-                    <img src="{$_layoutParams.root}views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
+                    <img src="{$_layoutParams.root}views/servicios/img/hecho_ecuador.png" alt="Eddie" class="eddie" />   
                     <p>La Línea de Servicios Especiales mantiene nuestros estándares de calidad y seguridad, y está enfocada a aquellas áreas muy particulares de la industria.</p>
                     <p>Dentro de nuestros principales desarrollos tenemos los siguientes:</p><br/>
                     <ul>

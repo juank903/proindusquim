@@ -8,11 +8,12 @@
         <link rel="shortcut icon" href="{$_layoutParams.root}public/img/proindusquim.ico">
         <link href="{$_layoutParams.ruta_css}estilos.css" rel="stylesheet" type="text/css" />
         
-        <!-- librerías para el slider principal-->
-        <script type="text/javascript" src="{$_layoutParams.root}public/js/jquery-1-6-4.js"></script>
-	<script src="{$_layoutParams.root}public/js/jquery.easing.min-1-3.js"></script>
-	<script type="text/javascript" src="{$_layoutParams.root}public/js/jquery.zaccordion.js"></script>
-        <!-- fin librerías slider principal-->
+        <!-- librerías para galeria de videos-->
+        <script type="text/javascript" src="{$_layoutParams.root}public/js/jquery-1-9-1.js"></script>
+        <!-- Add fancyBox -->
+        <!-- Estas librerias son importadas por el framework-->
+        <!-- -->
+        <!-- fin librerías galeria de videos-->
         {if isset($_layoutParams.js) && count($_layoutParams.js)}
         {foreach item=js from=$_layoutParams.js}
         

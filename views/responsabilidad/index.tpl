@@ -17,6 +17,8 @@
 	</script>
 </div>
 <!-- fin slider en todas las páginas-->
+</div>
+<!-- fin contenedor de layout de trabajo que viene del template-->
 <!-- inicio contenedor noticias -->
 <div id="contenedor_contenido_dinamico">
     <!-- inicio noticias página principal -->
@@ -25,7 +27,7 @@
         <div id="demo">
             <div id="features">
                 <div>
-                    <img src="{$_layoutParams.root}views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
+                    <img src="{$_layoutParams.root}views/responsabilidad/img/responsible_care.png" alt="Eddie" class="eddie" />   
                     <p>En 1999, la Asociación de Productores Químicos del Ecuador - APROQUE, Organización de Derecho Privado sin fines de lucro, inicia la coordinación en el país del Proceso Responsible Care,con la finalidad de fomentar el desarrollo industrial y empresarial con un alto nivel de eficacia basada en el principio de sostenibilidad.</p>
                     <p>Responsible Care , es una iniciativa voluntaria de la industria química global, hacia la mejora continua de la gestión ambiental, seguridad y salud en el trabajo, fomentando la comunicación con sus grupos de interés sobre sus produtos y procesos.</p>
                     <p>Es también un referente ético que permite la creación de productos que contribuyen a un mañana sostenible.</p>
