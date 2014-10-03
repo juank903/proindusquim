@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 16:55:11
+<?php /* Smarty version Smarty-3.1.8, created on 2014-09-01 10:58:35
          compiled from "/var/www/proindusquim/views/tips_uso/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:204444092853ff4c8b15e018-61446415%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '00941244afe9ffff397e824e2a143a5ca45c9256' => 
     array (
       0 => '/var/www/proindusquim/views/tips_uso/index.tpl',
-      1 => 1409262910,
+      1 => 1409584882,
       2 => 'file',
     ),
   ),
@@ -54,7 +54,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             });
             
         </script>
-        <!--Fin script funcionamiento videos>
+        <!--Fin script funcionamiento videos -->
     </div>
 </div>
 <!-- fin contenedor noticias dinámico -->

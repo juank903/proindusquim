@@ -1,8 +1,8 @@
 <!-- inicio slider en todas las páginas -->
 <div id="slider">
     <ul>				
-        <li ><img src="{$_layoutParams.root}/views/servicios/img/servicios_uno.jpg" alt="Css Template Preview"></a></li>
-        <li ><img src="{$_layoutParams.root}/views/servicios/img/servicios_dos.jpg" alt="Css Template Preview"></a></li>
+        <li ><img src="{$_layoutParams.root}/views/desarrollos/img/servicios_uno.jpg" alt="Css Template Preview"></a></li>
+        <li ><img src="{$_layoutParams.root}/views/desarrollos/img/servicios_dos.jpg" alt="Css Template Preview"></a></li>
     </ul>
 	<script type="text/javascript">
 		$(document).ready(function(){	
@@ -24,7 +24,7 @@
         <div id="demo">
             <div id="features">
                 <div>
-                    <img src="{$_layoutParams.root}views/servicios/img/hecho_ecuador.png" alt="Eddie" class="eddie" />   
+                    <img src="{$_layoutParams.root}views/desarrollos/img/hecho_ecuador.png" alt="Eddie" class="eddie" />   
                     <p>La Línea de Servicios Especiales mantiene nuestros estándares de calidad y seguridad, y está enfocada a aquellas áreas muy particulares de la industria.</p>
                     <p>Dentro de nuestros principales desarrollos tenemos los siguientes:</p><br/>
                     <ul>
@@ -48,16 +48,3 @@
     </div>
 </div>
 <!-- fin contenedor noticias dinámico -->
-<!-- inicio de parámetros para cargar js y css-->
-        {if isset($_layoutParams.js) && count($_layoutParams.js)}
-            {foreach item=js from=$_layoutParams.js}
-                <script src="{$js}" type="text/javascript"></script>
-            {/foreach}
-        {/if}
-
-        {if isset($_layoutParams.css) && count($_layoutParams.css)}
-            {foreach item=css from=$_layoutParams.css}
-                <link href="{$css}" rel="stylesheet" type="text/css">
-            {/foreach}
-        {/if}
-<!-- fin de parámetros para cargar js y css-->

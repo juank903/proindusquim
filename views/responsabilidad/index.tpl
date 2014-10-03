@@ -41,6 +41,11 @@
                         <li>Acompañamiento del Producto.</li>
                     </ul>
                 </div>
+                <div>
+                    <img src="{$_layoutParams.root}views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
+                    <h2 class="subtitulo-2 verde_obscuro">CERTIFICACIONES</h2> 
+
+                </div>                    
             </div>
             <!-- script de funcionamiento del slider de descripción de la empresa-->
             <script type="text/javascript">		
@@ -52,16 +57,3 @@
     </div>
 </div>
 <!-- fin contenedor noticias dinámico -->
-<!-- inicio de parámetros para cargar js y css-->
-        {if isset($_layoutParams.js) && count($_layoutParams.js)}
-            {foreach item=js from=$_layoutParams.js}
-                <script src="{$js}" type="text/javascript"></script>
-            {/foreach}
-        {/if}
-
-        {if isset($_layoutParams.css) && count($_layoutParams.css)}
-            {foreach item=css from=$_layoutParams.css}
-                <link href="{$css}" rel="stylesheet" type="text/css">
-            {/foreach}
-        {/if}
-<!-- fin de parámetros para cargar js y css-->

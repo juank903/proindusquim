@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 12:05:30
+<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 06:11:42
          compiled from "/var/www/proindusquim/views/layout/default2/template.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:8474155053ff59dd781637-29088584%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'fce977e988c30065b6206aaaad6b28e3d42e0315' => 
     array (
       0 => '/var/www/proindusquim/views/layout/default2/template.tpl',
-      1 => 1409245474,
+      1 => 1412334645,
       2 => 'file',
     ),
   ),
@@ -22,6 +22,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'titulo' => 0,
     '_layoutParams' => 0,
     'js' => 0,
+    'css' => 0,
     '_error' => 0,
     '_mensaje' => 0,
     '_contenido' => 0,
@@ -44,10 +45,9 @@ estilos.css" rel="stylesheet" type="text/css" />
         <!-- librerías para galeria de videos-->
         <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/js/jquery-1-9-1.js"></script>
-        <!-- Add fancyBox -->
-        <!-- Estas librerias son importadas por el framework-->
-        <!-- -->
         <!-- fin librerías galeria de videos-->
+
+        <!-- inicio de parámetros para cargar js y css-->
         <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])){?>
         <?php  $_smarty_tpl->tpl_vars['js'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['js']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['js']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -60,10 +60,38 @@ $_smarty_tpl->tpl_vars['js']->_loop = true;
         
         <?php } ?>
         <?php }?>
-    </head>
+        
+        
+        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])){?>
+            <?php  $_smarty_tpl->tpl_vars['css'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['css']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['css']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['css']->key => $_smarty_tpl->tpl_vars['css']->value){
+$_smarty_tpl->tpl_vars['css']->_loop = true;
+?>
+                <link href="<?php echo $_smarty_tpl->tpl_vars['css']->value;?>
+" rel="stylesheet" type="text/css">
+            <?php } ?>
+        <?php }?>
+        <!-- fin de parámetros para cargar js y css-->        </head>
 
     <body>
         <div id="franja_superior">
+            <div id="contenedor_franja_principal">
+                <div id="redes_sociales">
+                    <div class="icono">
+                        <a href="https://www.facebook.com/pages/Proindusquim-SA/559591434078075?fref=ts"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/facebook.png" /></a>
+                    </div>
+                    <div class="icono">
+                        <a href="https://www.youtube.com/channel/UCNvxJLl2cv2piVhSnL8me0Q"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/youtube.png" /></a>
+                    </div>
+                    <div class="icono">
+                        <a href="https://twitter.com/Proindusquim"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/twitter.png" /></a>
+                    </div>                    
+                </div>
+            </div>
         </div>
         <!-- inicio layout de trabajo-->
         <div id="contenedor_principal">
@@ -72,10 +100,10 @@ $_smarty_tpl->tpl_vars['js']->_loop = true;
                 <!-- inicio menu principal-->
                 <div class="menu_principal">
                     <div class="contenedor_botones_menu_principal">
-                        <a class="botones_menu_principal" href="index">EMPRESA</a>
-                        <a class="botones_menu_principal" href="productos">PRODUCTOS</a>
-                        <a class="botones_menu_principal" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
-                        <a class="botones_menu_principal" href="servicios">SERVICIOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="index">EMPRESA</a>
+                        <a class="botones_menu_principal borde_derecho" href="productos">PRODUCTOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
+                        <a class="botones_menu_principal borde_derecho" href="desarrollos">DESARROLLOS</a>
                         <a class="botones_menu_principal" href="tips_uso">TIPS DE USO</a>
 
                     </div>
@@ -114,58 +142,5 @@ public/img/logotipo_proindusquim.jpg" title= "PROINDUSQUIM líder en productos q
 
 <!--        </div> -->
         <!-- fin contenedor de layout de trabajo -->
-        <!-- inicio footer-->
-        <footer>
-            <div id="contenedor_footer">
-                <div id="left-footer">
-                    <div id="contenedor_logotipos" class="centrado" style="margin-bottom:20px;">
-                        <img class="centrado" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/img/logotipo_proindusquim_p.jpg" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
-                    </div>
-                    <div class="subtitulo-3 verde_obscuro centrado">PROINDUSQUIM S.A.</div> <p class="centrado">Es una empresa dedicada a la fabricación y comercialización de productos químicos.</p>
-                    <div id="contenedor_logotipos" class="centrado" style="margin-bottom:20px;">
-                        <img class="centrado" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/img/responsible-care.png" title= "PROINDUSQUIM líder en productos químicos" alt="PROINDUSQUIM líder en productos químicos"/>
-                    </div>
-                </div>
-                <div id="left-footer">
-                    <div class="subtitulo-3 verde_obscuro centrado">INFORMACIÓN DE CONTACTO</div>
-                    <p class="centrado">Conjunto Industrial "REQUIMEC"</p>
-                    <p class="centrado">Av. Teniente Hugo Ortíz y Balzar</p>
-                    <p class="centrado">Panamericana Sur Km. 4</p>
-                    <p class="centrado">PBX: 593.2 2671.015 / 2671.740</p><br/>
-
-                    <div class="subtitulo-3 verde_obscuro centrado">Correos Electrónicos:</div>
-                    <p class="centrado">Información General: info@proindusquim.com</p><br/>
-                    <p class="centrado">Gerencia General: ggeneral@proindusquim.com</p><br/>
-                    <p class="centrado">Gerencia de Producción: investigacion@proindusquim.com</p><br/>
-                    <p class="centrado">Facturación y Ventas: facturacion@proindusquim.com</p><br/>
-                </div>
-                <div id="left-footer">
-                    <div class="subtitulo-3 verde_obscuro">DÉJANOS TU MENSAJE</div>
-                    <form>
-                       <div class="caja_1">
-                           <div class="etiqueta_formulario">NOMBRE:</div><input type="text" class="estilo_input"  name="nombre"/>
-                       </div>
-                       <div class="caja_1">
-                            <div class="etiqueta_formulario">TELÉFONO:</div><input type="text" class="estilo_input"  name="nombre"/>
-                       </div>
-                       <div class="caja_1">
-                            <div class="etiqueta_formulario">EMAIL:</div><input class="estilo_input" type="text" name="nombre"/>
-                       </div>
-                       <div class="caja_2">
-                            <div class="etiqueta_formulario">MENSAJE:</div><textarea class="estilo_textarea" name="nombre"/></textarea>
-                       </div>
-                       <button type="button" class="estilo_button">ENVIAR</button>
-                    </form>
-                </div>
-
-                <div id="foot">
-                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/img/responsible_care_collage_proindusquim.jpg" />
-                </div>
-            </div>
-        </footer>
-        <!-- fin footer-->
     </body>
 </html><?php }} ?>

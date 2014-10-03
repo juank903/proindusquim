@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 16:41:53
+<?php /* Smarty version Smarty-3.1.8, created on 2014-09-01 12:21:23
          compiled from "/var/www/proindusquim/views/productos/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13156422653ff3ed5095f90-18596511%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'dc3e9fc8f249db6d8b8d6feb55018e36551d2d5d' => 
     array (
       0 => '/var/www/proindusquim/views/productos/index.tpl',
-      1 => 1409262109,
+      1 => 1409592073,
       2 => 'file',
     ),
   ),
@@ -29,22 +29,22 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <div id="slider_principal">
     <div id="banner_ul">
         <li class="frame-0">
-            <div class="menu_slider frame-0"><div class="texto_menu_slider">LÍNEA AUTOMOTRIZ</div></div>
+            <div class="menu_slider frame-0"><div class="texto_menu_slider">LÍNEA AUTOMOTRIZ</div></div><a href="automotriz"><div class="ver_catalogo">ver catálogo</div></a>
             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/img/linea_automotriz.jpg" style="float:right;"/>            
         </li>
         <li class="frame-1">
-            <div class="menu_slider frame-1"><div class="texto_menu_slider">LÍNEA INDUSTRIAL</div></div>
+            <div class="menu_slider frame-1"><div class="texto_menu_slider">LÍNEA INDUSTRIAL</div></div><a href="industrial"><div class="ver_catalogo">ver catálogo</div></a>
             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/img/linea_industrial.jpg" style="float:right;"/>            
         </li>
         <li class="frame-2">
-            <div class="menu_slider frame-2"><div class="texto_menu_slider">LÍNEA CONSTRUCCIÓN</div></div>
+            <div class="menu_slider frame-2"><div class="texto_menu_slider">LÍNEA CONSTRUCCIÓN</div></div><a href="construccion"><div class="ver_catalogo">ver catálogo</div></a>
             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/img/linea_construccion.jpg" style="float:right;"/>            
         </li>
         <li class="frame-3">
-            <div class="menu_slider frame-3"><div class="texto_menu_slider">LÍNEA INSTITUCIONAL / HOGAR</div></div>
+            <div class="menu_slider frame-3"><div class="texto_menu_slider">LÍNEA INSTITUCIONAL / HOGAR</div></div><a href="institucional_hogar"><div class="ver_catalogo">ver catálogo</div></a>
             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/img/linea_hogar.jpg" style="float:right;"/>            
         </li>
@@ -72,51 +72,14 @@ public/img/linea_hogar.jpg" style="float:right;"/>
     <div id="noticias_proindusquim">
         <!-- inicio sección descripción productos-->
         <div id="barra_productos">
-            <div class="left-footer-productos">
-                <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> INSTITUCIONAL / HOGAR</div>
-                <div class="centrado bloque_titulos subtitulo-4 blanco"> ANTIHUMEDAD</div>
-                <div class="descripcion_productos">
-                    <p><b class="rojo">Descripción:</b><br/>Es un Producto elaborado para absorber el exceso de humedad del ambiente, causante de moho, oxidación y daño de objetos. </p><br/>
-                </div>
-                <div class="imagen_productos">
-                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-views/index/img/antihumedad2.jpg" />
-                    <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
-                </div>
-                <div class="contenedor_ver_mas">
-                    <div class="ver_mas">+ ver más</div>
-                </div>
-            </div>
-            <div class="left-footer-productos">
-                <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> CONSTRUCCIÓN</div>
-                <div class="centrado bloque_titulos subtitulo-4 blanco"> LAVADOR 50</div>
-                <div class="descripcion_productos">
-                    <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido para cemento y salitre.</p><br/>
-                </div>
-                <div class="imagen_productos">
-                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-views/index/img/antihumedad2.jpg" />
-                    <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
-                </div>
-                <div class="contenedor_ver_mas">
-                    <div class="ver_mas">+ ver más</div>
-                </div>
-            </div>  
-            <div class="left-footer-productos">
-                <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> INDUSTRIAL</div>
-                <div class="centrado bloque_titulos subtitulo-4 blanco"> DS-30 BIO</div>
-                <div class="descripcion_productos">
-                    <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso alta biodegradabilidad.</p><br/>
-                </div>
-                <div class="imagen_productos">
-                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-views/index/img/antihumedad2.jpg" />
-                    <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
-                </div>
-                <div class="contenedor_ver_mas">
-                    <div class="ver_mas">+ ver más</div>
-                </div>
-            </div>                  
+            <div id="barra_iconos">
+                <div class="cuadrado">
+                    <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                    <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
+                    <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                    <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                </div>    
+            </div>            
         </div>
         <!-- fin sección descripción productos-->
     </div>

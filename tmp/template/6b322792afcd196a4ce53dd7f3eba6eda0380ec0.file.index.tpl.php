@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 16:34:41
+<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 05:59:08
          compiled from "/var/www/proindusquim/views/responsabilidad/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:21688321353f760b0545f54-94905348%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6b322792afcd196a4ce53dd7f3eba6eda0380ec0' => 
     array (
       0 => '/var/www/proindusquim/views/responsabilidad/index.tpl',
-      1 => 1409261676,
+      1 => 1412333897,
       2 => 'file',
     ),
   ),
@@ -20,8 +20,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'variables' => 
   array (
     '_layoutParams' => 0,
-    'js' => 0,
-    'css' => 0,
   ),
   'has_nocache_code' => false,
 ),false); /*/%%SmartyHeaderCode%%*/?>
@@ -74,6 +72,12 @@ views/responsabilidad/img/responsible_care.png" alt="Eddie" class="eddie" />
                         <li>Acompañamiento del Producto.</li>
                     </ul>
                 </div>
+                <div>
+                    <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
+                    <h2 class="subtitulo-2 verde_obscuro">CERTIFICACIONES</h2> 
+
+                </div>                    
             </div>
             <!-- script de funcionamiento del slider de descripción de la empresa-->
             <script type="text/javascript">		
@@ -84,27 +88,4 @@ views/responsabilidad/img/responsible_care.png" alt="Eddie" class="eddie" />
         <!-- fin sección descripción productos-->
     </div>
 </div>
-<!-- fin contenedor noticias dinámico -->
-<!-- inicio de parámetros para cargar js y css-->
-        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])){?>
-            <?php  $_smarty_tpl->tpl_vars['js'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['js']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['js']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['js']->key => $_smarty_tpl->tpl_vars['js']->value){
-$_smarty_tpl->tpl_vars['js']->_loop = true;
-?>
-                <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
-" type="text/javascript"></script>
-            <?php } ?>
-        <?php }?>
-
-        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])){?>
-            <?php  $_smarty_tpl->tpl_vars['css'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['css']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['css']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['css']->key => $_smarty_tpl->tpl_vars['css']->value){
-$_smarty_tpl->tpl_vars['css']->_loop = true;
-?>
-                <link href="<?php echo $_smarty_tpl->tpl_vars['css']->value;?>
-" rel="stylesheet" type="text/css">
-            <?php } ?>
-        <?php }?>
-<!-- fin de parámetros para cargar js y css--><?php }} ?>
+<!-- fin contenedor noticias dinámico --><?php }} ?>

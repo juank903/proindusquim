@@ -13,16 +13,16 @@ abstract class Controller
 {
     protected $_view;
     /*private $_registry; 
-    protected $_acl;
-    protected $_request;*/
+    protected $_acl;*/
+    protected $_request;
     
     public function __construct() 
     {
-        /*$this->_registry = Registry::getInstancia();
+        $this->_registry = Registry::getInstancia();
         $this->_acl = $this->_registry->_acl;
         $this->_request = $this->_registry->_request;
-        $this->_view = new View($this->_request, $this->_acl);*/
-        $this->_view = new View(new Request);
+        $this->_view = new View($this->_request, $this->_acl);
+        /*$this->_view = new View(new Request);*/
     }
     
     abstract public function index();

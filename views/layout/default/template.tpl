@@ -9,10 +9,12 @@
         <link href="{$_layoutParams.ruta_css}estilos.css" rel="stylesheet" type="text/css" />
         
         <!-- librerías para el slider principal-->
-        <script type="text/javascript" src="{$_layoutParams.root}public/js/jquery-1-6-4.js"></script>
+        <script type="text/javascript" src="{$_layoutParams.root}public/js/jquery-1-9-1.js"></script>
 	<script src="{$_layoutParams.root}public/js/jquery.easing.min-1-3.js"></script>
 	<script type="text/javascript" src="{$_layoutParams.root}public/js/jquery.zaccordion.js"></script>
         <!-- fin librerías slider principal-->
+
+        <!-- inicio de parámetros para cargar js y css-->
         {if isset($_layoutParams.js) && count($_layoutParams.js)}
         {foreach item=js from=$_layoutParams.js}
         
@@ -20,10 +22,32 @@
         
         {/foreach}
         {/if}
+        
+        
+        {if isset($_layoutParams.css) && count($_layoutParams.css)}
+            {foreach item=css from=$_layoutParams.css}
+                <link href="{$css}" rel="stylesheet" type="text/css">
+            {/foreach}
+        {/if}
+        <!-- fin de parámetros para cargar js y css-->        
+        
     </head>
 
     <body>
         <div id="franja_superior">
+            <div id="contenedor_franja_principal">
+                <div id="redes_sociales">
+                    <div class="icono">
+                        <a href="https://www.facebook.com/pages/Proindusquim-SA/559591434078075?fref=ts"><img src="{$_layoutParams.root}public/img/facebook.png" /></a>
+                    </div>
+                    <div class="icono">
+                        <a href="https://www.youtube.com/channel/UCNvxJLl2cv2piVhSnL8me0Q"><img src="{$_layoutParams.root}public/img/youtube.png" /></a>
+                    </div>
+                    <div class="icono">
+                        <a href="https://twitter.com/Proindusquim"><img src="{$_layoutParams.root}public/img/twitter.png" /></a>
+                    </div>                    
+                </div>
+            </div>
         </div>
         <!-- inicio layout de trabajo-->
         <div id="contenedor_principal">
@@ -32,11 +56,11 @@
                 <!-- inicio menu principal-->
                 <div class="menu_principal">
                     <div class="contenedor_botones_menu_principal">
-                        <a class="botones_menu_principal" href="index">EMPRESA</a>
-                        <a class="botones_menu_principal" href="productos">PRODUCTOS</a>
-                        <a class="botones_menu_principal" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
-                        <a class="botones_menu_principal" href="servicios">SERVICIOS</a>
-                        <a class="botones_menu_principal" href="tips_uso">TIPS DE USO</a>
+                        <a class="botones_menu_principal borde_derecho" href="index">EMPRESA</a>
+                        <a class="botones_menu_principal borde_derecho" href="productos">PRODUCTOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
+                        <a class="botones_menu_principal borde_derecho" href="desarrollos">DESARROLLOS</a>
+                        <a class="botones_menu_principal " href="tips_uso">TIPS DE USO</a>
 
                     </div>
                 </div>
@@ -87,13 +111,13 @@
                     <p class="centrado">Conjunto Industrial "REQUIMEC"</p>
                     <p class="centrado">Av. Teniente Hugo Ortíz y Balzar</p>
                     <p class="centrado">Panamericana Sur Km. 4</p>
-                    <p class="centrado">PBX: 593.2 2671.015 / 2671.740</p><br/>
+                    <p class="centrado">PBX: 593 2 2671 740 / 2671 015</p><br/>
 
                     <div class="subtitulo-3 verde_obscuro centrado">Correos Electrónicos:</div>
                     <p class="centrado">Información General: info@proindusquim.com</p><br/>
-                    <p class="centrado">Gerencia General: ggeneral@proindusquim.com</p><br/>
-                    <p class="centrado">Gerencia de Producción: investigacion@proindusquim.com</p><br/>
-                    <p class="centrado">Facturación y Ventas: facturacion@proindusquim.com</p><br/>
+                    <p class="centrado">Gerencia General: gerencia_general@proindusquim.com</p><br/>
+                    <p class="centrado">Gerencia de Producción: gproduccion@proindusquim.com</p><br/>
+                    <p class="centrado">Dirección Comercial: dcomercial@proindusquim.com</p><br/>
                 </div>
                 <div id="left-footer">
                     <div class="subtitulo-3 verde_obscuro">DÉJANOS TU MENSAJE</div>

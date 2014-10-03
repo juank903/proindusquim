@@ -13,6 +13,7 @@ class responsabilidadController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_responsabilidad'));
         $this->_view->setJS(array('jquery.jshowoff','easySlider1.5'));
+        $this->_view->setTemplate('default3');        
         $this->_view->renderizar('index', 'inicio');
     }
 }

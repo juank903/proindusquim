@@ -3,11 +3,11 @@
     <div id="banner_ul">
         <li class="frame-0">
             <div class="menu_slider frame-0"><div class="texto_menu_slider">ACERCA DE PROINDUSQUIM</div></div>
-            <img src="{$_layoutParams.root}public/img/acerca_de_proindusquim.jpg" style="float:right;"/>
+            <img src="{$_layoutParams.root}public/img/nuestra_empresa.jpg" style="float:right;"/>
         </li>
         <li class="frame-1">
-            <div class="menu_slider frame-1"><div class="texto_menu_slider">VIDEO CORPORATIVO</div></div>
-            <iframe width="800" height="450" src="//www.youtube.com/embed/A2Ik5poI9AQ" frameborder="0" style="float:right;"></iframe>
+            <div class="menu_slider frame-1"><div class="texto_menu_slider">NUESTRAS EMPRESA</div></div>
+            <img src="{$_layoutParams.root}public/img/acerca_de_proindusquim.jpg" style="float:right;"/>
         </li>
         <li class="frame-2">
             <div class="menu_slider frame-2"><div class="texto_menu_slider">PRINCIPALES OBJETIVOS</div></div>
@@ -31,20 +31,56 @@
 <!-- fin slider en todas las páginas-->
 </div>
 <!-- fin contenedor de layout de trabajo que viene del template-->
+<!-- inicio sección promocción-->
+<div id="promocion">
+    <img src="{$_layoutParams.root}public/img/promocion_proindusquim.jpg" />
+</div>
+<!-- fin sección promoción -->
 <!-- inicio contenedor noticias -->
 <div id="contenedor_contenido_dinamico">
     <!-- inicio noticias página principal -->
     <div id="noticias_proindusquim">
         <!--inicio sección descripción de la empresa -->
+               <!-- inicio sección descripción productos derecha-->        
         <div id="demo">
             <div id="features">
+                
                 <div>
-                    <img src="{$_layoutParams.root}views/index/img/vision.png" alt="Eddie" class="eddie" />   
+            <!-- inicio sección descripción productos izquierda-->
+
+                <ul class="youtube-videogallery eddie" style="height:250px">
+                    <li><a href="https://www.youtube.com/embed/A2Ik5poI9AQ">Video Corporativo</a></li>
+                </ul>
+                <!-- Inicio script funcionamiento videos -->
+                <script>
+                    {literal}
+                    $(document).ready(function(){
+                        $("ul.youtube-videogallery").youtubeVideoGallery( {plugin:'fancybox'} );
+                    });
+                    {/literal}
+                </script>
+                <!--Fin script funcionamiento videos-->                
+
+            <!-- inicio sección descripción productos derecha-->                         
                     <h2 class="subtitulo-2 verde_obscuro">MISIÓN</h2> 
                     <p>Elaboración de productos químicos industriales y servicios afines de calidad, siendo responsables con el ambiente, nuestros trabajadores y la sociedad en general.</p><br/>
                     <h2 class="subtitulo-2 verde_obscuro">VISIÓN</h2>
                     <p>Afianzarnos en el mercado nacional, como una de las mejores empresas tanto en el desarrollo como en la fabricación de productos químicos, brindando soluciones a los diversos sectores de la economía, con el compromiso del cuidado y conservación del ambiente.</p>
                 </div>
+                <div>
+                    <img src="{$_layoutParams.root}views/index/img/hecho_ecuador.png" alt="Eddie" class="eddie" />   
+                    <p>La Línea de Servicios Especiales mantiene nuestros estándares de calidad y seguridad, y está enfocada a aquellas áreas muy particulares de la industria.</p>
+                    <p>Dentro de nuestros principales desarrollos tenemos los siguientes:</p><br/>
+                    <ul>
+                        <li>Formulación y desarrollo de productos y líneas.</li>
+                        <li>Envasado de líquidos, geles, polvos y aerosoles.</li>
+                        <li>Maquila de productos cosméticos e industriales bajo marca propia.</li>
+                        <li>Envasado en cartuchos y/o tubos colapsibles de productos con alta viscosidad.</li>
+                        <li>Servicio de etiquetado, codificado Ink Jet y empacado termoencogible.</li>
+                        <li>Fabricación de productos a granel.</li>
+                        <li>Distribución a nivel nacional de productos o líneas complementarias.</li>
+                    </ul>
+                </div>                
                 <div>
                     <img src="{$_layoutParams.root}views/index/img/politicas.png" alt="Eddie" class="eddie" />   
                     <h2 class="subtitulo-2 verde_obscuro">POLÍTICAS</h2> 
@@ -73,11 +109,6 @@
                             <li style="margin-left: 100px;">Proteger el medio ambiente y prevenir la contaminación, desempeñando actividades y utilizando materias primas y procesos seguros que no afecten ni comprometan nuestro ecosistema.</li><br/>
                         </ol>
                 </div>
-                <div>
-                    <img src="{$_layoutParams.root}views/index/img/mision_vision_proindusquim.png" alt="Eddie" class="eddie" />   
-                    <h2 class="subtitulo-2 verde_obscuro">CERTIFICACIONES</h2> 
-
-                </div>
              </div>
             <!-- script de funcionamiento del slider de descripción de la empresa-->
             <script type="text/javascript">		
@@ -89,62 +120,55 @@
         <!-- inicio sección descripción productos-->
         <div id="barra_productos">
             <div class="left-footer-productos">
-                <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> INSTITUCIONAL / HOGAR</div>
-                <div class="centrado bloque_titulos subtitulo-4 blanco"> ANTIHUMEDAD</div>
-                <div class="descripcion_productos">
-                    <p><b class="rojo">Descripción:</b><br/>Es un Producto elaborado para absorber el exceso de humedad del ambiente, causante de moho, oxidación y daño de objetos. </p><br/>
+                <div class="cuadro_productos">
+                    <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> INSTITUCIONAL / HOGAR</div>
+                    <div class="centrado bloque_titulos subtitulo-4 blanco"> ANTIHUMEDAD</div>
+                    <div class="descripcion_productos">
+                        <p><b class="rojo">Descripción:</b><br/>Es un Producto elaborado para absorber el exceso de humedad del ambiente, causante de moho, oxidación y daño de objetos. </p><br/>
+                    </div>
+                    <div class="imagen_productos">
+                        <img src="{$_layoutParams.root}views/index/img/antihumedad2.jpg" />
+                        <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
+                    </div>
                 </div>
-                <div class="imagen_productos">
-                    <img src="{$_layoutParams.root}views/index/img/antihumedad2.jpg" />
-                    <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
-                </div>
-                <div class="contenedor_ver_mas">
-                    <div class="ver_mas">+ ver más</div>
-                </div>
+                    <div class="contenedor_ver_mas">
+                        <a href="institucional_hogar"><div class="ver_mas">+ ver más</div></a>
+                    </div>    
             </div>
             <div class="left-footer-productos">
-                <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> CONSTRUCCIÓN</div>
-                <div class="centrado bloque_titulos subtitulo-4 blanco"> LAVADOR 50</div>
-                <div class="descripcion_productos">
-                    <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido para cemento y salitre.</p><br/>
+                <div class="cuadro_productos">
+                    <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> CONSTRUCCIÓN</div>
+                    <div class="centrado bloque_titulos subtitulo-4 blanco"> LAVADOR 50</div>
+                    <div class="descripcion_productos">
+                        <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido para cemento y salitre.</p><br/>
+                    </div>
+                    <div class="imagen_productos">
+                        <img src="{$_layoutParams.root}views/index/img/lavador2.jpg" />
+                        <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
+                    </div>
                 </div>
-                <div class="imagen_productos">
-                    <img src="{$_layoutParams.root}views/index/img/antihumedad2.jpg" />
-                    <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
-                </div>
-                <div class="contenedor_ver_mas">
-                    <div class="ver_mas">+ ver más</div>
-                </div>
+                    <div class="contenedor_ver_mas">
+                        <a href="construccion"><div class="ver_mas">+ ver más</div></a>
+                    </div>
             </div>  
             <div class="left-footer-productos">
-                <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> INDUSTRIAL</div>
-                <div class="centrado bloque_titulos subtitulo-4 blanco"> DS-30 BIO</div>
-                <div class="descripcion_productos">
-                    <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso alta biodegradabilidad.</p><br/>
+                <div class="cuadro_productos">                
+                    <div class="centrado bloque_titulos_superior subtitulo-4 blanco"> INDUSTRIAL</div>
+                    <div class="centrado bloque_titulos subtitulo-4 blanco"> DS-30 BIO</div>
+                    <div class="descripcion_productos">
+                        <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso alta biodegradabilidad.</p><br/>
+                    </div>
+                    <div class="imagen_productos">
+                        <img src="{$_layoutParams.root}views/index/img/bio_ds302.jpg" />
+                        <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
+                    </div>
                 </div>
-                <div class="imagen_productos">
-                    <img src="{$_layoutParams.root}views/index/img/antihumedad2.jpg" />
-                    <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">10 l</div></div>
-                </div>
-                <div class="contenedor_ver_mas">
-                    <div class="ver_mas">+ ver más</div>
-                </div>
+                    <div class="contenedor_ver_mas">
+                        <a href="industrial"><div class="ver_mas">+ ver más</div></a>
+                    </div>
             </div>                  
         </div>
         <!-- fin sección descripción productos-->
     </div>
 </div>
 <!-- fin contenedor noticias dinámico -->
-<!-- inicio de parámetros para cargar js y css-->
-        {if isset($_layoutParams.js) && count($_layoutParams.js)}
-            {foreach item=js from=$_layoutParams.js}
-                <script src="{$js}" type="text/javascript"></script>
-            {/foreach}
-        {/if}
-
-        {if isset($_layoutParams.css) && count($_layoutParams.css)}
-            {foreach item=css from=$_layoutParams.css}
-                <link href="{$css}" rel="stylesheet" type="text/css">
-            {/foreach}
-        {/if}
-<!-- fin de parámetros para cargar js y css-->

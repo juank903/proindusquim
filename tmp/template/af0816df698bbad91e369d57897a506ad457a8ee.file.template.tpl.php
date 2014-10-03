@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-08-28 10:36:12
+<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 06:10:02
          compiled from "/var/www/proindusquim/views/layout/default/template.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:60071752853f36654cc0757-16221647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'af0816df698bbad91e369d57897a506ad457a8ee' => 
     array (
       0 => '/var/www/proindusquim/views/layout/default/template.tpl',
-      1 => 1409240167,
+      1 => 1412334435,
       2 => 'file',
     ),
   ),
@@ -22,6 +22,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'titulo' => 0,
     '_layoutParams' => 0,
     'js' => 0,
+    'css' => 0,
     '_error' => 0,
     '_mensaje' => 0,
     '_contenido' => 0,
@@ -43,12 +44,14 @@ estilos.css" rel="stylesheet" type="text/css" />
         
         <!-- librerías para el slider principal-->
         <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/js/jquery-1-6-4.js"></script>
+public/js/jquery-1-9-1.js"></script>
 	<script src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/js/jquery.easing.min-1-3.js"></script>
 	<script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/js/jquery.zaccordion.js"></script>
         <!-- fin librerías slider principal-->
+
+        <!-- inicio de parámetros para cargar js y css-->
         <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])){?>
         <?php  $_smarty_tpl->tpl_vars['js'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['js']->_loop = false;
  $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['js']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
@@ -61,10 +64,40 @@ $_smarty_tpl->tpl_vars['js']->_loop = true;
         
         <?php } ?>
         <?php }?>
+        
+        
+        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])){?>
+            <?php  $_smarty_tpl->tpl_vars['css'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['css']->_loop = false;
+ $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['css']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
+foreach ($_from as $_smarty_tpl->tpl_vars['css']->key => $_smarty_tpl->tpl_vars['css']->value){
+$_smarty_tpl->tpl_vars['css']->_loop = true;
+?>
+                <link href="<?php echo $_smarty_tpl->tpl_vars['css']->value;?>
+" rel="stylesheet" type="text/css">
+            <?php } ?>
+        <?php }?>
+        <!-- fin de parámetros para cargar js y css-->        
+        
     </head>
 
     <body>
         <div id="franja_superior">
+            <div id="contenedor_franja_principal">
+                <div id="redes_sociales">
+                    <div class="icono">
+                        <a href="https://www.facebook.com/pages/Proindusquim-SA/559591434078075?fref=ts"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/facebook.png" /></a>
+                    </div>
+                    <div class="icono">
+                        <a href="https://www.youtube.com/channel/UCNvxJLl2cv2piVhSnL8me0Q"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/youtube.png" /></a>
+                    </div>
+                    <div class="icono">
+                        <a href="https://twitter.com/Proindusquim"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/img/twitter.png" /></a>
+                    </div>                    
+                </div>
+            </div>
         </div>
         <!-- inicio layout de trabajo-->
         <div id="contenedor_principal">
@@ -73,11 +106,11 @@ $_smarty_tpl->tpl_vars['js']->_loop = true;
                 <!-- inicio menu principal-->
                 <div class="menu_principal">
                     <div class="contenedor_botones_menu_principal">
-                        <a class="botones_menu_principal" href="index">EMPRESA</a>
-                        <a class="botones_menu_principal" href="productos">PRODUCTOS</a>
-                        <a class="botones_menu_principal" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
-                        <a class="botones_menu_principal" href="servicios">SERVICIOS</a>
-                        <a class="botones_menu_principal" href="tips_uso">TIPS DE USO</a>
+                        <a class="botones_menu_principal borde_derecho" href="index">EMPRESA</a>
+                        <a class="botones_menu_principal borde_derecho" href="productos">PRODUCTOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
+                        <a class="botones_menu_principal borde_derecho" href="desarrollos">DESARROLLOS</a>
+                        <a class="botones_menu_principal " href="tips_uso">TIPS DE USO</a>
 
                     </div>
                 </div>
@@ -134,13 +167,13 @@ public/img/responsible-care.png" title= "PROINDUSQUIM líder en productos quími
                     <p class="centrado">Conjunto Industrial "REQUIMEC"</p>
                     <p class="centrado">Av. Teniente Hugo Ortíz y Balzar</p>
                     <p class="centrado">Panamericana Sur Km. 4</p>
-                    <p class="centrado">PBX: 593.2 2671.015 / 2671.740</p><br/>
+                    <p class="centrado">PBX: 593 2 2671 740 / 2671 015</p><br/>
 
                     <div class="subtitulo-3 verde_obscuro centrado">Correos Electrónicos:</div>
                     <p class="centrado">Información General: info@proindusquim.com</p><br/>
-                    <p class="centrado">Gerencia General: ggeneral@proindusquim.com</p><br/>
-                    <p class="centrado">Gerencia de Producción: investigacion@proindusquim.com</p><br/>
-                    <p class="centrado">Facturación y Ventas: facturacion@proindusquim.com</p><br/>
+                    <p class="centrado">Gerencia General: gerencia_general@proindusquim.com</p><br/>
+                    <p class="centrado">Gerencia de Producción: gproduccion@proindusquim.com</p><br/>
+                    <p class="centrado">Dirección Comercial: dcomercial@proindusquim.com</p><br/>
                 </div>
                 <div id="left-footer">
                     <div class="subtitulo-3 verde_obscuro">DÉJANOS TU MENSAJE</div>

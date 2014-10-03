@@ -27,7 +27,7 @@
             });
             {/literal}
         </script>
-        <!--Fin script funcionamiento videos>
+        <!--Fin script funcionamiento videos -->
     </div>
 </div>
 <!-- fin contenedor noticias dinámico -->

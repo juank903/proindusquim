@@ -1,0 +1,85 @@
+.descripcion_productos{
+font-size: .9em;   
+width: 205px;
+margin-right: 20px;
+margin-top: 10px;
+float: left;
+}
+.imagen_productos{
+height: 430px;
+}
+.cuadro_presentacion{
+background:#f3f3f3;
+}
+#barra_productos_izquierda{
+width: 240px;
+float: left;
+}
+.cuadro_productos{
+float: right;
+padding: 20px 20px 0 20px;
+background: white;
+overflow: hidden;
+border-left:2px solid #a7d093;
+border-right: 2px solid #FFF;
+width: 350px;
+}
+#menu_iconos{
+margin-top: 30px;
+}
+#barra_productos_derecha{
+width: 860px;
+float:right;
+}
+#banner_principal{
+position: relative;
+margin-top:90px;
+width: 1100px;
+height: 114px;
+background: url('../img/banner_industrial.jpg');
+margin-bottom: 10px;
+}
+#contenedor_barra_videos{
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 10px;
+display:table;    
+overflow: hidden;
+background-color: white;
+-webkit-box-shadow: 3px 3px 15px #000;
+-moz-box-shadow: 10px 10px 5px #000;
+filter: shadow(color=#000000, direction=135, strength=2);    
+margin-bottom: 50px;;
+}
+#barra_videos{
+width: 840px;
+margin: 30px auto;
+}
+.boton_automotriz{
+display:inline-block;
+background-image: url('../img/ico_linea_automotriz_org.png');
+}
+.boton_automotriz:hover{
+background-image: url('../img/ico_linea_automotriz_hvr.png');
+}
+.boton_industrial{
+display:inline-block;
+background-image: url('../img/ico_linea_industrial_org.png');
+}
+.boton_industrial:hover{
+background-image: url('../img/ico_linea_industrial_hvr.png');
+}
+.boton_construccion{
+display:inline-block;
+background-image: url('../img/ico_linea_construccion_org.png');
+}
+.boton_construccion:hover{
+background-image: url('../img/ico_linea_construccion_hvr.png');
+}
+.boton_hogar{
+display:inline-block;
+background-image: url('../img/ico_linea_hogar_org.png');
+}
+.boton_hogar:hover{
+background-image: url('../img/ico_linea_hogar_hvr.png');
+}
