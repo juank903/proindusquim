@@ -30,9 +30,9 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">DS-30 Bio</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso alta biodegradabilidad.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc. Para reforzar lavado de ropa en máquina o manual.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>5-10 partes de agua.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Superficies en general, metal, plástico, cerámica, madera.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>1 con 5-10 partes de agua dependiendo de la cantidad.</p><br/>
                                 <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/KRIK_DS-30_BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
