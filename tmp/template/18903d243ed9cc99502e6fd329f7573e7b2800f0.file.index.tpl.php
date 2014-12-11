@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 10:04:46
+<?php /* Smarty version Smarty-3.1.8, created on 2014-11-12 13:59:13
          compiled from "/var/www/proindusquim/views/institucional_hogar/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19942376035404ad1f7a4146-07388015%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '18903d243ed9cc99502e6fd329f7573e7b2800f0' => 
     array (
       0 => '/var/www/proindusquim/views/institucional_hogar/index.tpl',
-      1 => 1412348682,
+      1 => 1415818634,
       2 => 'file',
     ),
   ),
@@ -62,7 +62,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <p><b class="rojo">Dilución:</b><br/>---</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/institucional_fichas/KRIK_ANTIHUMEDAD.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/institucional_fichas/KRIK_ANTIHUMEDAD.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -80,7 +80,7 @@ views/institucional_hogar/img/antihumedad.jpg" />
                                 <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
                                 <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/institucional_fichas/KRIK_ELIMINA_MALOS_OLORES.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/institucional_fichas/KRIK_ELIMINA_MALOS_OLORES.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -98,7 +98,7 @@ views/institucional_hogar/img/elimina_olores.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/institucional_fichas/KRIK_AROMA_BIO_LAVANDA.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/institucional_fichas/KRIK_AROMA_BIO_LAVANDA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -116,7 +116,7 @@ views/institucional_hogar/img/aromabio.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>Manualmente 1 con 9 partes de agua. Máquina 1 con 20 partes de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/institucional_fichas/KRIK_CARPET_FOAM.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/institucional_fichas/KRIK_CARPET_FOAM.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -126,6 +126,28 @@ views/institucional_hogar/img/carpet_foam.jpg" />
                     </div>
                 </div>                            
             </div>
+                            <div id="paginacion">
+                                <div class="actual_boton_pagina">
+                                    1
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar/dos">2</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar/tres">3</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar/cuatro">4</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar/cinco">5</a>
+                                </div>  
+
+                            </div>                              
         </div>
         <!-- fin sección descripción productos-->
     </div>
@@ -137,10 +159,14 @@ views/institucional_hogar/img/carpet_foam.jpg" />
     <div id="barra_productos">
         <div id="barra_iconos">
             <div class="cuadrado">
-                <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+industrial"><div class="boton_icono boton_industrial"></div></a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
             </div>    
         </div>            
     </div>

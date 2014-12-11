@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-10-01 09:55:03
+<?php /* Smarty version Smarty-3.1.8, created on 2014-10-15 17:44:46
          compiled from "/var/www/proindusquim/modules/usuarios/views/index/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:712370874542c15c7a26ab6-04809181%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e8185328adcaae418210fdcd8ab6ec9c77264fc1' => 
     array (
       0 => '/var/www/proindusquim/modules/usuarios/views/index/index.tpl',
-      1 => 1352121668,
+      1 => 1413412699,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_542c15c7a83b24_58382450',
   'variables' => 
   array (
     'usuarios' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '_layoutParams' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_542c15c7a83b24_58382450',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_542c15c7a83b24_58382450')) {function content_542c15c7a83b24_58382450($_smarty_tpl) {?><h2>Usuarios</h2>
 

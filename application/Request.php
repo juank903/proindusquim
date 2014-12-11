@@ -25,7 +25,7 @@ class Request
             $url = array_filter($url);
             
             /* modulos de la app */
-            $this->_modules = array('usuarios');
+            $this->_modules = array('usuarios','principal');
             $this->_modulo = strtolower(array_shift($url));
             
             if(!$this->_modulo){

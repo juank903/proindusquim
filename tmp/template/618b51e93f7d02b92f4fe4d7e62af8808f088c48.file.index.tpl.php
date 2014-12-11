@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 09:29:44
+<?php /* Smarty version Smarty-3.1.8, created on 2014-11-12 13:59:17
          compiled from "/var/www/proindusquim/views/construccion/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:7550921485404adc15eb620-15860733%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '618b51e93f7d02b92f4fe4d7e62af8808f088c48' => 
     array (
       0 => '/var/www/proindusquim/views/construccion/index.tpl',
-      1 => 1412346579,
+      1 => 1415818282,
       2 => 'file',
     ),
   ),
@@ -62,7 +62,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <p><b class="rojo">Dilución:</b><br/>1 ó 2 partes de agua dependiendo de la cantidad de incrustación u óxido que tenga la superficie. En desagües aplicar sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho, No utilizar en aluminio.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/automotriz_fichas/LAVADOR_H-10.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/construccion_fichas/LAVADOR_H-10.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -80,7 +80,7 @@ views/construccion/img/h10_grande.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua. Puede utilizarse sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/construccion_fichas/LAVADOR_H-30.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/construccion_fichas/LAVADOR_H-30.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -98,7 +98,7 @@ views/construccion/img/h30_lavador.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho. No utilizar en mármol o granito.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/construccion_fichas/LAVADOR_50.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/construccion_fichas/LAVADOR_50.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -112,11 +112,11 @@ views/construccion/img/lavador50.jpg" />
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LAVADOR 100  líquido y gel</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desincrustante acido para sarro y hongos.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/Pisos, superficies con cerámica y sanitarios.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Pisos, superficies con cerámica y sanitarios.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/> 1 con 3 partes de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/construccion_fichas/LAVADOR_100.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/construccion_fichas/LAVADOR_100.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -126,6 +126,24 @@ views/construccion/img/lavador100.jpg" />
                     </div>
                 </div>                            
             </div>
+                            <div id="paginacion">
+                                <div class="actual_boton_pagina">
+                                    1
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+construccion/dos">2</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+construccion/tres">3</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+construccion/cuatro">4</a>
+                                </div>                 
+
+                            </div>                             
         </div>
         <!-- fin sección descripción productos-->
     </div>
@@ -137,10 +155,14 @@ views/construccion/img/lavador100.jpg" />
     <div id="barra_productos">
         <div id="barra_iconos">
             <div class="cuadrado">
-                <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+industrial"><div class="boton_icono boton_industrial"></div></a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
             </div>    
         </div>            
     </div>

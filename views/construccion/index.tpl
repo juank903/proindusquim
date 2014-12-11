@@ -34,7 +34,7 @@
                             <p><b class="rojo">Usos:</b><br/>Pisos, estructuras y superficies con incrustaciones u óxido. Limpieza, para soldadura cobre-estaño. Destapa desagües obstruidos  con cemento.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 ó 2 partes de agua dependiendo de la cantidad de incrustación u óxido que tenga la superficie. En desagües aplicar sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho, No utilizar en aluminio.</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/LAVADOR_H-10.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_H-10.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/construccion/img/h10_grande.jpg" />
@@ -50,7 +50,7 @@
                             <p><b class="rojo">Usos:</b><br/>Estructuras y superficies de hierro.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua. Puede utilizarse sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_H-30.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_H-30.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/construccion/img/h30_lavador.jpg" />
@@ -66,7 +66,7 @@
                             <p><b class="rojo">Usos:</b><br/>Superficies de ladrillo visto, gres y hormigón.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho. No utilizar en mármol o granito.</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_50.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_50.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/construccion/img/lavador50.jpg" />
@@ -82,7 +82,7 @@
                             <p><b class="rojo">Usos:</b><br/>Pisos, superficies con cerámica y sanitarios.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/> 1 con 3 partes de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_100.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_100.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/construccion/img/lavador100.jpg" />
@@ -91,6 +91,21 @@
                     </div>
                 </div>                            
             </div>
+                            <div id="paginacion">
+                                <div class="actual_boton_pagina">
+                                    1
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}construccion/dos">2</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}construccion/tres">3</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}construccion/cuatro">4</a>
+                                </div>                 
+
+                            </div>                             
         </div>
         <!-- fin sección descripción productos-->
     </div>
@@ -102,10 +117,10 @@
     <div id="barra_productos">
         <div id="barra_iconos">
             <div class="cuadrado">
-                <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                <a href="{$_layoutParams.root}automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                <a href="{$_layoutParams.root}industrial"><div class="boton_icono boton_industrial"></div></a>
+                <a href="{$_layoutParams.root}construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                <a href="{$_layoutParams.root}institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
             </div>    
         </div>            
     </div>

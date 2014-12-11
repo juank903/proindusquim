@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 08:54:35
+<?php /* Smarty version Smarty-3.1.8, created on 2014-11-12 13:58:53
          compiled from "/var/www/proindusquim/views/automotriz/index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:101973824154048d3826d809-08487297%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'ca607eb9e2ef53d6a546f3b3af33cdb1ede0fdcd' => 
     array (
       0 => '/var/www/proindusquim/views/automotriz/index.tpl',
-      1 => 1412344469,
+      1 => 1415817990,
       2 => 'file',
     ),
   ),
@@ -60,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <p><b class="rojo">Dilución:</b><br/>1-2 medida por litro de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/automotriz_fichas/CHAMPU_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/automotriz_fichas/CHAMPU_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -78,7 +78,7 @@ views/automotriz/img/champu.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/automotriz_fichas/CERA_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/automotriz_fichas/CERA_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -96,7 +96,7 @@ views/automotriz/img/cera.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/automotriz_fichas/LIMPIADOR_MULTIUSO_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/automotriz_fichas/LIMPIADOR_MULTIUSO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -114,7 +114,7 @@ views/automotriz/img/limpiadormultiuso.jpg" />
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/automotriz_fichas/SILICON_PROTECTOR_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/automotriz_fichas/SILICON_PROTECTOR_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -123,7 +123,23 @@ views/automotriz/img/siliconprotector.jpg" />
                         </div>
                     </div>
                 </div>
+                         
             </div>
+            <div id="paginacion">
+                <div class="actual_boton_pagina">
+                    1
+                </div>
+                <div class="boton_pagina">
+                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+automotriz/dos">2</a>
+                </div>
+                <div class="boton_pagina">
+                    <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+automotriz/tres">3</a>
+                </div>                
+                
+            </div>   
+
         </div>
         <!-- fin sección descripción productos-->
     </div>
@@ -135,10 +151,14 @@ views/automotriz/img/siliconprotector.jpg" />
     <div id="barra_productos">
         <div id="barra_iconos">
             <div class="cuadrado">
-                <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+industrial"><div class="boton_icono boton_industrial"></div></a>
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
             </div>    
         </div>            
     </div>

@@ -15,7 +15,9 @@ class industrialController extends Controller
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
         $this->_view->setTemplate('default2');
         $this->_view->renderizar('index', 'inicio');
+        
     }
+
 }
 
 ?>

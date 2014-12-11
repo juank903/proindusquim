@@ -1,15 +1,15 @@
 *{
 vertical-align: baseline;
 font-weight: inherit;
-font-family: Calibri;
+ font-family: Calibri; 
 font-style: inherit;
-font-size: 100%;
-border: 0 none;
-outline: 0;
-padding: 0;
-margin: 0;
-text-decoration: none;
-font-size:1em;
+ font-size: 100%; 
+ border: 0 none; 
+ outline: 0; 
+ padding: 0; 
+ margin: 0; 
+ text-decoration: none; 
+ font-size:1em; 
 }
 html{
 background: #FFF;
@@ -381,3 +381,28 @@ p.jshowoff-controls {
 .jshowoff-pausetext {
 	color: #fff;
 	}
+#paginacion{
+clear:both;
+width: 785px;
+float: right;
+}
+.boton_pagina a, .actual_boton_pagina{
+text-align: center;    
+width: 20px;
+height: 20px;
+float:left;
+background: white;
+border: solid 1px #3c9455;
+padding: 3px;
+color:#666;
+font-weight: bold;
+}
+.boton_pagina a:hover {
+background: #3c9455;
+border: solid 1px #3c9455;
+color: white;
+cursor:pointer;
+}
+
+
+

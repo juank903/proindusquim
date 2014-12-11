@@ -34,7 +34,7 @@
                             <p><b class="rojo">Usos:</b><br/>Lavado manual o con máquina de todo tipo de vehículos y transporte.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1-2 medida por litro de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CHAMPU_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CHAMPU_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/automotriz/img/champu.jpg" />
@@ -50,7 +50,7 @@
                             <p><b class="rojo">Usos:</b><br/>Carrocerías y cromados.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CERA_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CERA_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/automotriz/img/cera.jpg" />
@@ -66,7 +66,7 @@
                             <p><b class="rojo">Usos:</b><br/>Paneles, plástico y tapicería.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/LIMPIADOR_MULTIUSO_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/LIMPIADOR_MULTIUSO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/automotriz/img/limpiadormultiuso.jpg" />
@@ -82,7 +82,7 @@
                             <p><b class="rojo">Usos:</b><br/>Plástico, vinil, caucho y cuero.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/SILICON_PROTECTOR_FCF.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/SILICON_PROTECTOR_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/automotriz/img/siliconprotector.jpg" />
@@ -90,7 +90,21 @@
                         </div>
                     </div>
                 </div>
+                         
             </div>
+            <div id="paginacion">
+                <div class="actual_boton_pagina">
+                    1
+                </div>
+                <div class="boton_pagina">
+                    <a href="{$_layoutParams.root}automotriz/dos">2</a>
+                </div>
+                <div class="boton_pagina">
+                    <a href="{$_layoutParams.root}automotriz/tres">3</a>
+                </div>                
+                
+            </div>   
+
         </div>
         <!-- fin sección descripción productos-->
     </div>
@@ -102,10 +116,10 @@
     <div id="barra_productos">
         <div id="barra_iconos">
             <div class="cuadrado">
-                <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                <a href="{$_layoutParams.root}automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                <a href="{$_layoutParams.root}industrial"><div class="boton_icono boton_industrial"></div></a>
+                <a href="{$_layoutParams.root}construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                <a href="{$_layoutParams.root}institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
             </div>    
         </div>            
     </div>

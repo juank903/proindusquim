@@ -34,7 +34,7 @@
                             <p><b class="rojo">Usos:</b><br/>---</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>---</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_ANTIHUMEDAD.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_ANTIHUMEDAD.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/institucional_hogar/img/antihumedad.jpg" />
@@ -50,7 +50,7 @@
                                 <p><b class="rojo">Usos:</b><br/>---</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
                                 <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
-                                <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_ELIMINA_MALOS_OLORES.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                                <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_ELIMINA_MALOS_OLORES.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="{$_layoutParams.root}views/institucional_hogar/img/elimina_olores.jpg" />
@@ -66,7 +66,7 @@
                             <p><b class="rojo">Usos:</b><br/>Áreas en general, baños, cuartos, closets, ascensores.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_AROMA_BIO_LAVANDA.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_AROMA_BIO_LAVANDA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/institucional_hogar/img/aromabio.jpg" />
@@ -82,7 +82,7 @@
                             <p><b class="rojo">Usos:</b><br/>Alfombras, tapetes y tapices.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Manualmente 1 con 9 partes de agua. Máquina 1 con 20 partes de agua.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
-                            <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_CARPET_FOAM.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                            <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_CARPET_FOAM.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/institucional_hogar/img/carpet_foam.jpg" />
@@ -91,6 +91,24 @@
                     </div>
                 </div>                            
             </div>
+                            <div id="paginacion">
+                                <div class="actual_boton_pagina">
+                                    1
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}institucional_hogar/dos">2</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}institucional_hogar/tres">3</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}institucional_hogar/cuatro">4</a>
+                                </div>
+                                <div class="boton_pagina">
+                                    <a href="{$_layoutParams.root}institucional_hogar/cinco">5</a>
+                                </div>  
+
+                            </div>                              
         </div>
         <!-- fin sección descripción productos-->
     </div>
@@ -102,10 +120,10 @@
     <div id="barra_productos">
         <div id="barra_iconos">
             <div class="cuadrado">
-                <a href="automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
+                <a href="{$_layoutParams.root}automotriz"><div class="boton_icono boton_automotriz"></div></a>
+                <a href="{$_layoutParams.root}industrial"><div class="boton_icono boton_industrial"></div></a>
+                <a href="{$_layoutParams.root}construccion"><div class="boton_icono boton_construccion"></div></a>                      
+                <a href="{$_layoutParams.root}institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
             </div>    
         </div>            
     </div>
