@@ -62,7 +62,7 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LIMPIADOR MULTIUSO</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Liquido limpiador desengrasante y restaurador.</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/>Líquido limpiador desengrasante y restaurador.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Paneles, plástico y tapicería.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
@@ -86,7 +86,7 @@
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/automotriz/img/siliconprotector.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div> <div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div> <div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
                         </div>
                     </div>
                 </div>

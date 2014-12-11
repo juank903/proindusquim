@@ -40,7 +40,8 @@
                             <img src="{$_layoutParams.root}views/automotriz/img/cremix_grande.jpg" />
                             <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">350 gr</div><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
-                    </div>
+                    </div>                   
+                                           
                 </div>
 
             </div>
