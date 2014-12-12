@@ -81,7 +81,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Protector y abrillantador siliconado con fragancia, protege de rayos UV evitando el resecamiento y rotura.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Plástico, vinil, caucho y cuero.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/SILICON_PROTECTOR_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

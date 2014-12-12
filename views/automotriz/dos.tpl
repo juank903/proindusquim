@@ -49,7 +49,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Aditivo refrigerante, antioxidante, que evita incrustaciones y lubrica el sistema.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Radiadores de agua para vehículos y maquinaria.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Vehículos peq. 2 lt. con 10 de agua. Vehículos med. 4 lt con 20 de agua. Vehículos gran. 8 lt con 30 de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/ADITIVO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -65,7 +64,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado emulsionable, base solvente.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasas y suciedad acumulada. Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 1 parte de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/PROSOLVEX_INDUSTRIAL_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -79,9 +77,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">BIO PROSOLVEX</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desengrasante y descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos. Producto base agua biodegradable.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>---</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 5 partes de agua para descarbonizar o 1 con 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/PROSOLVEX_BIO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
