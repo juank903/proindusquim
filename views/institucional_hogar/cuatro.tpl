@@ -49,7 +49,6 @@
                                 <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante en polvo. No raya.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Ollas, utensilios y equipos de cocina.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo, luego humedecer con agua y limpiar.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_POLVO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -65,7 +64,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Limpiador para pisos encerados, elimina suciedad acumulada. Evita el uso de rasqueteador de acero.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pisos de madera no lacada, vinil y caucho.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_VIRUTA_LIQUIDA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -81,7 +79,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado con fragancia y base de Amonios Cuaternarios.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pisos, baños, lavabos e higiénicos.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Como desinfectante diluir 1 parte con 20 partes de agua. Como sanitizante diluir 1 parte con 40 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_X-30_AROMA_CALIPTTO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

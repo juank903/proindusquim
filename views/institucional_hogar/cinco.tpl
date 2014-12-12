@@ -32,13 +32,13 @@
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Es un desinfectante concentrado con efecto bactericida, fungicida, virucida y desodorizante, formulado con Amonios Cuaternarios.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Limpieza y desinfección de pisos, paredes, baños, cocinas y habitaciones, lavabos e higiénicos.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Uso directo aplicando con p año o esponja.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Uso directo aplicando con paño o esponja.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_X-30_PLUS.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/institucional_hogar/img/x30_plus.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
                 </div> 
@@ -78,15 +78,14 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">MATOX</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Superficies y ambientes con presencia de insectos rastreros y voladores.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Pisos, baños, lavabos e higiénicos.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Uso directo con atomizador.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/>Insecticida líquido, base agua-alcohol.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Superficies y ambientes con presencia de insectos rastreros y voladores.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Uso directo con atomizador</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/institucional_hogar/img/matox.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
                 </div>                            

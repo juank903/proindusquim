@@ -33,7 +33,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Cera líquida, base agua con fragancia naranja, formulada para alto tráfico y antideslizante.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Piso flotante, vinil, baldosa, mármol y madera lacada.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_CERA_CRIL.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -65,7 +64,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Jabón líquido humectante con fragancia.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Lavado de manos.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Una pequeña cantidad produce una alta espuma.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_DERMISAN_MANZANA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

@@ -38,7 +38,7 @@
                         </div>
                         <div class="imagen_productos">
                             <img src="{$_layoutParams.root}views/institucional_hogar/img/bio_ds30.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
                 </div> 
@@ -49,7 +49,7 @@
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante alcalino concentrado en liquido y gel.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Hornos, bandejas metálicas, campañas extractoras, utensilios y equipos de cocina.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo en grasa acumulada con 2 partes de agua grasa normal.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho, No aplicar en aluminio.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.<br>No aplicar en aluminio.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_LIMPIA_HORNOS.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -78,7 +78,7 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LAVABIBERONES NEUTRO</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>abón líquido neutro sin fragancia para biberones.</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/>Jabón líquido neutro sin fragancia para biberones.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Biberones</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Una pequeña cantidad produce una alta espuma.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>

@@ -31,9 +31,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">ANTIHUMEDAD</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Es un Producto elaborado para absorber el exceso de humedad del ambiente, causante de moho, oxidación y daño de objetos.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>---</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Para su uso lea las instrucciones del envase.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_ANTIHUMEDAD.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -47,9 +45,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">AROMA ELIMINA OLORES</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Producto líquido atóxico que elimina malos olores a nivel doméstico, industria alimenticia y hospitales. Elimina principalmente olores originados por descomposición de material orgánico y también concentración de olores como alimentos y tabaco.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>---</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_ELIMINA_MALOS_OLORES.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -65,7 +61,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Aromatizador de Ambientes.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Áreas en general, baños, cuartos, closets, ascensores.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_AROMA_BIO_LAVANDA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -81,7 +76,6 @@
                             <p><b class="rojo">Descripción:</b><br/> Champú de alfombras y tapicería para uso manual o con máquina.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Alfombras, tapetes y tapices.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Manualmente 1 con 9 partes de agua. Máquina 1 con 20 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_CARPET_FOAM.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
