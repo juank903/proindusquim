@@ -33,7 +33,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Impermeabilizante, base acrílica siliconada de alta resistencia a rayos UV e intemperie, resalta sin pintar.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Ladrillo, tejuelo, arcillas y gres poroso.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/construccion_fichas/MK-1.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -49,7 +48,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Impermeabilizante base acrílica, siliconada de alta resistencia a rayos UV e intemperie. Resalta sin pintar.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Hormigón visto, piedras y revestimientos base cuarzo-carbonatos.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/construccion_fichas/MK-2.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

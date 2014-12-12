@@ -53,7 +53,7 @@
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
-                            <img src="{$_layoutParams.root}views/construccion/img/flexit1.jpg" />
+                            <img src="{$_layoutParams.root}views/construccion/img/flexit2.jpg" />
                             <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">320 gr</div><div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
@@ -65,11 +65,10 @@
                             <p><b class="rojo">Descripción:</b><br/>Cola blanca de uso múltiple en madera, cartón y papel, resistencia normal.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Especialmente para usos de artesanía y manualidades. Puede aplicarse sobre madera, cerámica, tela, papel, cartulina, cartón, etc.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
-                            <img src="{$_layoutParams.root}views/construccion/img/flexit2.jpg" />
+                            <img src="{$_layoutParams.root}views/construccion/img/flexit1.jpg" />
                             <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">320 gr</div><div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
