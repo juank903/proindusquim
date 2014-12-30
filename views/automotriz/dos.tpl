@@ -33,7 +33,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Limpiador de parabrisas, abrillanta, elimina smog e insectos.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Recipiente para líquido lava parabrisas. Limpieza de vidrios con paño húmedo.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>2 medidas en el recipiente y completar con agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/LAVA_PARABRISA_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
