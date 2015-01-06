@@ -31,7 +31,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LAVADOR H-10</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido, desoxidante y limpiador.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Pisos, estructuras y superficies con incrustaciones u óxido. Limpieza, para soldadura cobre-estaño. Destapa desagües obstruidos con cemento.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Pisos, estructuras y superficies con incrustaciones u óxido.<br/>Limpieza, para soldadura cobre-estaño.<br/>Destapa desagües obstruidos con cemento.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 ó 2 partes de agua dependiendo de la cantidad de incrustación u óxido que tenga la superficie.<br/> En desagües aplicar sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.<br/>Utilizar guantes de caucho<br/></p><br/>
                             <p><a href="{$_layoutParams.root}public/files/construccion_fichas/LAVADOR_H-10.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
