@@ -32,9 +32,8 @@
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Detergente liquido concentrado biodegradable.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Lavado de superficies y equipos alimenticios e industriales.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>Limpieza extra fuerte 1:5 (1 con 5 partes de agua)</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Limpieza normal-suave 1:40  (1 con 40 partes de agua)</p><br/>
-                                <p><a href="{$_layoutParams.root}public/files/industrial_fichas/DETERCLEAN_500.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Limpieza extra fuerte 1:5 (1 con 5 partes de agua)<br/>Limpieza normal-suave 1:40(1 con 40 partes de agua)
+                                <p><a href="{$_layoutParams.root}public/files/industrial_fichas/DETERCLEAN_500.pdf""><br/><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="{$_layoutParams.root}views/industrial/img/no_disponible.jpg" />
@@ -46,10 +45,10 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">X-30 PLUS</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Limpiador desinfectante neutro base de agua-alcohol y amonios Cuaternarios, limpia y abrillanta.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Limpiador desinfectante neutro base de agua-alcohol y Amonios Cuaternarios, limpia y abrillanta.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Superficies y áreas en general, mesas, sillas, puertas, vidrios, etc.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo aplicando con paño o esponja.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/X-30_PLUS.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -62,10 +61,9 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">x-30 NEUTRO</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado neutro, sin olor, a base de amonios cuaternarios.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Superficies y áreas en general, piso, paredes, cuartos fríos.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado neutro, sin olor, a base de Amonios Cuaternarios.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Superficies y áreas en general, pisos, paredes, cuartos fríos.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>1 con 80 partes de agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/X-30_NEUTRO.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -78,10 +76,10 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">SANIT-30</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Desinfectante base ácido peracético.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Desinfectante base ácido Peracético.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Limpieza de plantas y equipos en industria láctea y alimenticia, no requiere enjuague posterior.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>2ml ó 2g. por litro de agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/SANIT-30.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">

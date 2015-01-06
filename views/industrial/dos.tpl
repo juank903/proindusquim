@@ -30,10 +30,10 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">DS-30 Bio</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Limpiador y desengrasante multiuso.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Superficies en general, metal, plástico, cerámica, madera.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>1 con 5-10 partes de agua dependiendo de la cantidad.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>1 con 5-10 partes de agua dependiendo de la cantidad de suciedad acumulada.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/KRIK_DS-30_BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -48,8 +48,7 @@
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Limpieza pesada por inmersión, máquina a presión o cepillado manual.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>Limpieza por inmersión 1:10 a 1:15 con agua. Suciedad Pesada 1:20 con agua. Suciedad Mediana 1:30 con agua. Suciedad Liviana 1:60 con agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Limpieza por inmersión 1:10 a 1:15 con agua.<br/>Suciedad Pesada 1:20 con agua.<br/>Suciedad Mediana 1:30 con agua.<br/>Suciedad Liviana 1:60 con agua.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/D-305.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -65,7 +64,6 @@
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado emulsionable, base solvente.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasa y suciedad acumulada. Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>1 con 1 parte de agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/PROSOLVEX_INDUSTRIAL.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -78,10 +76,8 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">BIO PROSOLVEX</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Desengrasante-Descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos. Producto base agua biodegradable.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>---</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Desengrasante-Descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos, base agua biodegradable.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>1 con 5 partes de agua para descarbonizar y de 1 con 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/PROSOLVEX_BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">

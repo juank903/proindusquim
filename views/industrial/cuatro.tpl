@@ -30,10 +30,10 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CLORO EN POLVO TRICLORO 90%</div>
                             <div class="descripcion_productos">
+                                 <p><b class="rojo">(Hipoclorito de calcio 65%-70% o Tricloro Cianurato)</b><br/>
                                 <p><b class="rojo">Descripción:</b><br/>Cloro granular para mantener desinfectada el agua, libre de bacterias y microrganismos peligrosos para la salud humana.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>En piscinas, piletas, cisternas de agua potable. Añadir 2g. por m3 de agua, 3 veces a la semana en piscinas y 1 vez por semana en cisternas.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>En piscinas, piletas, cisternas de agua potable. </p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Añadir 2g. por m3 de agua, 3 veces a la semana en piscinas y 1 vez por semana en cisternas.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/piscinas_fichas/CLORO_EN_POLVO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -47,9 +47,8 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">ALGICIDA LÍQUIDO</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Aditivo base Amonios Cuaternarios que evita la formación de algas adheridas  a la cerámica, emporado, tuberías y equipos de recirculación, permitiendo un mejor funcionamiento de los equipos y obteniéndose un agua trasparente y cristalina.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>En piscinas y piletas. Añadir directamente 1 litro por cada 100m3 de agua. (10 ml por cada m3)</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>En piscinas y piletas.</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Añadir directamente 1 litro por cada 100m3 de agua. (10 ml por cada m3)</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/piscinas_fichas/CLORO_EN_POLVO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
