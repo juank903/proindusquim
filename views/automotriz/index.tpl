@@ -33,7 +33,7 @@
                             <p><b class="rojo">Descripción:</b><br/>Champú de autos alta espuma con efecto abrillantador. </p><br/>
                             <p><b class="rojo">Usos:</b><br/>Lavado manual o con máquina de todo tipo de vehículos y transporte.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1-2 medida por litro de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CHAMPU_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -49,7 +49,7 @@
                             <p><b class="rojo">Descripción:</b><br/>Cera protectora de alto brillo con protector UV que evita el resecamiento acelerado de la pintura.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Carrocerías y cromados.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CERA_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -65,7 +65,7 @@
                             <p><b class="rojo">Descripción:</b><br/>Líquido limpiador desengrasante y restaurador.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Paneles, plástico y tapicería.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/LIMPIADOR_MULTIUSO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
