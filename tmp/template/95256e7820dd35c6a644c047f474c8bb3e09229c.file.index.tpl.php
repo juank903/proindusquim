@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 00:07:04
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:29:59
          compiled from "C:\xampp\htdocs\proindusquim\views\construccion\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:29781548a00e1b8e4b3-66157163%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '95256e7820dd35c6a644c047f474c8bb3e09229c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\construccion\\index.tpl',
-      1 => 1418339010,
+      1 => 1420576196,
       2 => 'file',
     ),
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LAVADOR H-10</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido, desoxidante y limpiador.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Pisos, estructuras y superficies con incrustaciones u óxido. Limpieza, para soldadura cobre-estaño. Destapa desagües obstruidos con cemento.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>1 ó 2 partes de agua dependiendo de la cantidad de incrustación u óxido que tenga la superficie. En desagües aplicar sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Pisos, estructuras y superficies con incrustaciones u óxido.<br/>Limpieza, para soldadura cobre-estaño.<br/>Destapa desagües obstruidos con cemento.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>1 ó 2 partes de agua dependiendo de la cantidad de incrustación u óxido que tenga la superficie.<br/> En desagües aplicar sin diluir.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.<br/>Utilizar guantes de caucho<br/></p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/construccion_fichas/LAVADOR_H-10.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -77,8 +77,8 @@ views/construccion/img/h10_grande.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desoxidante y desincrustante ácido con efecto fosfatizante.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Estructuras y superficies de hierro.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua. Puede utilizarse sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua.<br/>Puede utilizarse sin diluir.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/construccion_fichas/LAVADOR_H-30.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -96,14 +96,14 @@ views/construccion/img/h30_lavador.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido para cemento y salitre.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Superficies de ladrillo visto, gres y hormigón.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 3 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho. No utilizar en mármol o granito.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.<br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/construccion_fichas/LAVADOR_50.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/construccion/img/lavador50.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div> <div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/> <div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,7 @@ views/construccion/img/lavador50.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Desincrustante ácido para sarro y hongos.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pisos, superficies con cerámica y sanitarios.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/> 1 con 3 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>No utilizar en mármol o granito.<br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/construccion_fichas/LAVADOR_100.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

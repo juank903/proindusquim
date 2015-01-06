@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 00:36:18
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:34:07
          compiled from "C:\xampp\htdocs\proindusquim\views\construccion\dos.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:8890548a239884bce8-90497006%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'df82339a6824bf9c45676ad462ea76361a4640e9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\construccion\\dos.tpl',
-      1 => 1418340970,
+      1 => 1420576442,
       2 => 'file',
     ),
   ),
@@ -66,7 +66,7 @@ public/files/construccion_fichas/MK-1.pdf"><b class="rojo">DESCARGAR FICHA TÉCN
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/construccion/img/mk1.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">200 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">1 lt</div> <div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                         </div>
                     </div>
                 </div>
@@ -91,7 +91,7 @@ views/construccion/img/mk2.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">MK IMPERFLEX</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Impermeabilizante base acrílica, elastomerico, reforzado con plastificantes. Acabado color blanco.</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/>Impermeabilizante base acrílica, elastomérico, reforzado con plastificantes. Acabado color blanco.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Jardineras, grietas, goteras, terrazas y losas.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>No  utilizar en cisternas de agua o reservorios de consumo humano y animal.</p><br/>

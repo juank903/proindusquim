@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 02:05:16
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:26:54
          compiled from "C:\xampp\htdocs\proindusquim\views\institucional_hogar\cinco.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16955548a3cbf691ce1-28733474%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7d672c6259b2a5f890172992e393ed5b533f362d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\institucional_hogar\\cinco.tpl',
-      1 => 1418346312,
+      1 => 1420576011,
       2 => 'file',
     ),
   ),
@@ -60,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <p><b class="rojo">Descripción:</b><br/>Es un desinfectante concentrado con efecto bactericida, fungicida, virucida y desodorizante, formulado con Amonios Cuaternarios.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Limpieza y desinfección de pisos, paredes, baños, cocinas y habitaciones, lavabos e higiénicos.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo aplicando con paño o esponja.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_X-30_PLUS.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -78,7 +78,6 @@ views/institucional_hogar/img/x30_plus.jpg" />
                                 <p><b class="rojo">Descripción:</b><br/>Aceite protector siliconado con fragancia naranja</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Muebles de madera en general y lacados.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -95,7 +94,7 @@ views/institucional_hogar/img/lustra_muebles.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Destapador alcalino líquido.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Desagües, lavabos y sanitarios en general.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Producto de uso delicado. Leer bien las instrucciones antes de utilizar. Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Producto de uso delicado.<br/>Leer bien las instrucciones antes de utilizar.<br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_DESTAPOL.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

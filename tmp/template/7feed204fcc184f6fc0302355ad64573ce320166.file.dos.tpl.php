@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-11 21:17:03
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:48:50
          compiled from "C:\xampp\htdocs\proindusquim\views\industrial\dos.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:220265489fbbf7afcc4-33252119%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '7feed204fcc184f6fc0302355ad64573ce320166' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\industrial\\dos.tpl',
-      1 => 1418328636,
+      1 => 1420577329,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_5489fbbf8443e2_01995409',
   'variables' => 
   array (
     '_layoutParams' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'css' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5489fbbf8443e2_01995409',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5489fbbf8443e2_01995409')) {function content_5489fbbf8443e2_01995409($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
 <div id="banner_principal">
@@ -57,10 +57,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">DS-30 Bio</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Limpiador y desengrasante multiuso.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Superficies en general, metal, plástico, cerámica, madera.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>1 con 5-10 partes de agua dependiendo de la cantidad.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>1 con 5-10 partes de agua dependiendo de la cantidad de suciedad acumulada.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/KRIK_DS-30_BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -77,15 +77,14 @@ views/industrial/img/bio_ds30.jpg" />
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Limpieza pesada por inmersión, máquina a presión o cepillado manual.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>Limpieza por inmersión 1:10 a 1:15 con agua. Suciedad Pesada 1:20 con agua. Suciedad Mediana 1:30 con agua. Suciedad Liviana 1:60 con agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Limpieza por inmersión 1:10 a 1:15 con agua.<br/>Suciedad Pesada 1:20 con agua.<br/>Suciedad Mediana 1:30 con agua.<br/>Suciedad Liviana 1:60 con agua.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/D-305.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/industrial/img/no_disponible.jpg" />
-                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div> <div class="cuadro_presentacion">200 lt</div></div>
+                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div> <div class="cuadro_presentacion">220 lt</div></div>
                             </div>
                     </div>
                 </div>
@@ -94,16 +93,15 @@ views/industrial/img/no_disponible.jpg" />
                         <div class="centrado bloque_titulos subtitulo-4 blanco">PROSOLVEX INDUSTRIAL</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado emulsionable, base solvente.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasa y suciedad acumulada. Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasa y suciedad acumulada.<br/> Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>1 con 1 parte de agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/PROSOLVEX_INDUSTRIAL.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/industrial/img/no_disponible.jpg" />
-                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">200 lt</div></div>
+                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                             </div>
                     </div>
                 </div>
@@ -111,10 +109,8 @@ views/industrial/img/no_disponible.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">BIO PROSOLVEX</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Desengrasante-Descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos. Producto base agua biodegradable.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>---</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>1 con 5 partes de agua para descarbonizar y de 1 con 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Desengrasante-Descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos, base agua biodegradable.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>De 1 a 5 partes de agua para descarbonizar y de 1 a 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/PROSOLVEX_BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>

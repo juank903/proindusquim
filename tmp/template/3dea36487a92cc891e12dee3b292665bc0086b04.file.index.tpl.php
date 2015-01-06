@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 01:25:46
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:14:18
          compiled from "C:\xampp\htdocs\proindusquim\views\institucional_hogar\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:28507548a356bdda646-37349874%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '3dea36487a92cc891e12dee3b292665bc0086b04' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\institucional_hogar\\index.tpl',
-      1 => 1418343941,
+      1 => 1420575255,
       2 => 'file',
     ),
   ),
@@ -57,7 +57,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">ANTIHUMEDAD</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Es un Producto elaborado para absorber el exceso de humedad del ambiente, causante de moho, oxidación y daño de objetos.</p><br/>
+                            <p><b class="rojo">Descripción / Usos:</b><br/>Es un Producto elaborado para absorber el exceso de humedad del ambiente, causante de moho, oxidación y daño de objetos.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>Para su uso lea las instrucciones del envase.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_ANTIHUMEDAD.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
@@ -71,10 +71,10 @@ views/institucional_hogar/img/antihumedad.jpg" />
                 </div> 
                 <div class="left-footer-productos">
                     <div class="cuadro_productos">
-                        <div class="centrado bloque_titulos subtitulo-4 blanco">AROMA ELIMINA OLORES</div>
+                        <div class="centrado bloque_titulos subtitulo-4 blanco">AROMA ELIMINA MALOS OLORES</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Producto líquido atóxico que elimina malos olores a nivel doméstico, industria alimenticia y hospitales. Elimina principalmente olores originados por descomposición de material orgánico y también concentración de olores como alimentos y tabaco.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
+                                <p><b class="rojo">Descripción / Usos:</b><br/>Producto líquido atóxico que elimina malos olores a nivel doméstico, industria alimenticia y hospitales. Elimina principalmente olores originados por descomposición de material orgánico y también concentración de olores como alimentos y tabaco.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_ELIMINA_MALOS_OLORES.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -91,14 +91,14 @@ views/institucional_hogar/img/elimina_olores.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Aromatizador de Ambientes.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Áreas en general, baños, cuartos, closets, ascensores.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>uso directo sin diluir.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_AROMA_BIO_LAVANDA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/institucional_hogar/img/aromabio.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
                         </div>
                     </div>
                 </div>
@@ -108,14 +108,14 @@ views/institucional_hogar/img/aromabio.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/> Champú de alfombras y tapicería para uso manual o con máquina.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Alfombras, tapetes y tapices.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Manualmente 1 con 9 partes de agua. Máquina 1 con 20 partes de agua.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Manualmente 1 con 9 partes de agua.<br/>Máquina 1 con 20 partes de agua.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_CARPET_FOAM.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/institucional_hogar/img/carpet_foam.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
                         </div>
                     </div>
                 </div>                            

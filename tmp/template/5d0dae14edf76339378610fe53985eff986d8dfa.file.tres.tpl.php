@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-11 21:17:07
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:53:23
          compiled from "C:\xampp\htdocs\proindusquim\views\industrial\tres.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:241875489fbc3dfa289-13359198%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5d0dae14edf76339378610fe53985eff986d8dfa' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\industrial\\tres.tpl',
-      1 => 1418305695,
+      1 => 1420577599,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_5489fbc3ee8741_01532189',
   'variables' => 
   array (
     '_layoutParams' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'css' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5489fbc3ee8741_01532189',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5489fbc3ee8741_01532189')) {function content_5489fbc3ee8741_01532189($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
 <div id="banner_principal">
@@ -57,10 +57,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CREMIX</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Crema desengrasante de manos on efecto humectante y desinfectante con fragancia a naranja.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Uso directo. Para retirarla utilice papel, paño o enjuague con agua.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Crema desengrasante de manos con efecto humectante y desinfectante con fragancia a naranja.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Uso directo.<br/> Para retirarla utilice papel, paño o enjuague con agua.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/CREMIX.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -73,12 +71,11 @@ views/industrial/img/cremix_grande.jpg" />
                 </div>
                 <div class="left-footer-productos">
                     <div class="cuadro_productos">
-                        <div class="centrado bloque_titulos subtitulo-4 blanco">REGULADOR PH ALCALINO EN POLVO</div>
+                        <div class="centrado bloque_titulos subtitulo-4 blanco">REGULADOR pH ALCALINO EN POLVO</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Aditivo alcalinízante elevador de ph</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas ácidas de piscinas y piletas decorativas. Regula el PH Manteniéndolo entre 6.5 -7 rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Solicitar ficha técnica e instrucciones de uso al fabricante.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Aditivo alcalinízante elevador de pH</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas ácidas de piscinas y piletas decorativas.<br/> Regula el pH Manteniéndolo entre 6,5 - 7, rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Solicitar ficha técnica e instrucciones de uso al fabricante.</p><br/>
                                 <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -90,12 +87,11 @@ views/industrial/img/no_disponible.jpg" />
                 </div>
                 <div class="left-footer-productos">
                     <div class="cuadro_productos">
-                        <div class="centrado bloque_titulos subtitulo-4 blanco">REGULADOR PH ÁCIDO EN POLVO</div>
+                        <div class="centrado bloque_titulos subtitulo-4 blanco">REGULADOR pH ÁCIDO EN POLVO</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Aditivo acificante reductor de ph</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas alcalinas en piscinas y piletas decorativas. Regula el PH. Manteniéndolo entre 6.5 -7 rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Solicitar ficha técnica e instrucciones de uso al fabricante.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas alcalinas en piscinas y piletas decorativas. Regula el pH. Manteniéndolo entre 6,5 - 7, rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Solicitar ficha técnica e instrucciones de uso al fabricante.</p><br/>
                                 <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -109,10 +105,10 @@ views/industrial/img/no_disponible.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CLORO EN PASTILLAS TRICOLOR 90%</div>
                             <div class="descripcion_productos">
+                                <p><b class="rojo">(Diclorocianurato al 90%)</b><br/>
                                 <p><b class="rojo">Descripción:</b><br/>Cloro en pastillas para mantener desinfectada el agua, libre de bacterias y microrganismos peligrosos para la salud humana.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>En piscinas y piletas. Colocar una pastilla en la rejilla de rebalse.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>En piscinas y piletas.</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/> Colocar una pastilla en la rejilla de rebalse.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/piscinas_fichas/CLORO_EN_PASTILLAS_TRICOLORO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 02:18:04
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 19:08:13
          compiled from "C:\xampp\htdocs\proindusquim\views\automotriz\dos.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:143345489a2b23cbc40-65871780%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd836a73e63521c752a7e461f168180ff6f89e499' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\automotriz\\dos.tpl',
-      1 => 1418346919,
+      1 => 1420567690,
       2 => 'file',
     ),
   ),
@@ -56,9 +56,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LAVA PARABRISAS</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Limpiador de parabrisas, abrillanta, elimina smog e insectos.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Recipiente para líquido lava parabrisas. Limpieza de vidrios con paño húmedo.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Recipiente para líquido lava parabrisas.<br>Limpieza de vidrios con paño húmedo.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>2 medidas en el recipiente y completar con agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/LAVA_PARABRISA_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -75,7 +74,7 @@ views/automotriz/img/lava_parabrisas.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Aditivo refrigerante, antioxidante, que evita incrustaciones y lubrica el sistema.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Radiadores de agua para vehículos y maquinaria.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Vehículos peq. 2 lt. con 10 de agua. Vehículos med. 4 lt con 20 de agua. Vehículos gran. 8 lt con 30 de agua.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>En Vehículos peq. 2 lt. con 10 de agua.<br>En Vehículos med. 4 lt con 20 de agua.<br/>En Vehículos gran. 8 lt con 30 de agua.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/ADITIVO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -91,7 +90,7 @@ views/automotriz/img/aditivo.jpg" />
                         <div class="centrado bloque_titulos subtitulo-4 blanco">PROSOLVEX</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado emulsionable, base solvente.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasas y suciedad acumulada. Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasas y suciedad acumulada.<br/>Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1 con 1 parte de agua.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/PROSOLVEX_INDUSTRIAL_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
@@ -107,8 +106,8 @@ views/automotriz/img/no_disponible.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">BIO PROSOLVEX</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Desengrasante y descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos. Producto base agua biodegradable.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>1 con 5 partes de agua para descarbonizar o 1 con 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/><p>Desengrasante y descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos.<br/></p>Producto base agua biodegradable.<br/><br/>
+                            <p><b class="rojo">Dilución:</b><br/>1 con 5 partes de agua para descarbonizar y de 1 con 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/PROSOLVEX_BIO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

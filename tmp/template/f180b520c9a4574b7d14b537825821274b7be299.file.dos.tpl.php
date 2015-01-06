@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 01:30:16
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:17:31
          compiled from "C:\xampp\htdocs\proindusquim\views\institucional_hogar\dos.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:17292548a3612ba2332-85713245%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f180b520c9a4574b7d14b537825821274b7be299' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\institucional_hogar\\dos.tpl',
-      1 => 1418344212,
+      1 => 1420575449,
       2 => 'file',
     ),
   ),
@@ -76,8 +76,8 @@ views/institucional_hogar/img/no_disponible.jpg" />
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desinfectante y blanqueador.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Textiles, baños y cocinas.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>Blanquear ¼ de taza en 4 litros de agua. Limpiar ½ tasa en 4 litros. Desinfectar 1 taza en 4 litros.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Blanquear ¼ de taza en 4 litros de agua.<br/> Limpiar ½ tasa en 4 litros.<br/> Desinfectar 1 taza en 4 litros.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_CLORO_100_AL_5.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -110,9 +110,9 @@ views/institucional_hogar/img/no_disponible.jpg" />
                         <div class="centrado bloque_titulos subtitulo-4 blanco">DS-30</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc. Para reforzar lavado de ropa en máquina o manual.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc.<br/>Para reforzar lavado de ropa en máquina o manual.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>5-10 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_DS-30.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

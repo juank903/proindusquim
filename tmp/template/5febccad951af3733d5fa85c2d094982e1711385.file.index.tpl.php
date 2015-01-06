@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 02:18:01
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:43:28
          compiled from "C:\xampp\htdocs\proindusquim\views\automotriz\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:265535489a2ab03bfe7-17142892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5febccad951af3733d5fa85c2d094982e1711385' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\automotriz\\index.tpl',
-      1 => 1418347044,
+      1 => 1420569054,
       2 => 'file',
     ),
   ),
@@ -53,12 +53,12 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <div id="barra_productos_derecha">
                 <div class="left-footer-productos">
                     <div class="cuadro_productos">
-                        <div class="centrado bloque_titulos subtitulo-4 blanco">CHAMPU</div>
+                        <div class="centrado bloque_titulos subtitulo-4 blanco">CHAMPÚ</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Champú de autos alta espuma con efecto abrillantador. </p><br/>
                             <p><b class="rojo">Usos:</b><br/>Lavado manual o con máquina de todo tipo de vehículos y transporte.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>1-2 medida por litro de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/CHAMPU_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -76,7 +76,7 @@ views/automotriz/img/champu.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Cera protectora de alto brillo con protector UV que evita el resecamiento acelerado de la pintura.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Carrocerías y cromados.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/CERA_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -94,7 +94,7 @@ views/automotriz/img/cera.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Líquido limpiador desengrasante y restaurador.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Paneles, plástico y tapicería.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/LIMPIADOR_MULTIUSO_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

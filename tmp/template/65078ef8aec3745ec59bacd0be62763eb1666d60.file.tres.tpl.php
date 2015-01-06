@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 01:46:02
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:21:25
          compiled from "C:\xampp\htdocs\proindusquim\views\institucional_hogar\tres.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:19809548a3724693e00-87613571%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '65078ef8aec3745ec59bacd0be62763eb1666d60' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\institucional_hogar\\tres.tpl',
-      1 => 1418345157,
+      1 => 1420575683,
       2 => 'file',
     ),
   ),
@@ -58,9 +58,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="centrado bloque_titulos subtitulo-4 blanco">DS-30 Bio</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso alta biodegradabilidad.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc. Para reforzar lavado de ropa en máquina o manual.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>5-10 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_DS-30-BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -76,9 +76,9 @@ views/institucional_hogar/img/bio_ds30.jpg" />
                         <div class="centrado bloque_titulos subtitulo-4 blanco">LIMPIA HORNOS</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante alcalino concentrado en liquido y gel.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Hornos, bandejas metálicas, campañas extractoras, utensilios y equipos de cocina.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Hornos, bandejas metálicas, campanas extractoras, utensilios y equipos de cocina.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo en grasa acumulada con 2 partes de agua grasa normal.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.<br>No aplicar en aluminio.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>No aplicar en aluminio.<br>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_LIMPIA_HORNOS.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -96,25 +96,25 @@ views/institucional_hogar/img/limpia_hornos.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Limpiador liquido, desengrasante y abrillantador.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Vidrios, cristales y plásticos.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_LIMPIA_VIDRIOS.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
                             <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 views/institucional_hogar/img/limpia_vidrios.jpg" />
-                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
+                            <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">500 ml</div><div class="cuadro_presentacion">1 lt</div><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div></div>
                         </div>
                     </div>
                 </div>
                 <div class="left-footer-productos">
                     <div class="cuadro_productos">
-                        <div class="centrado bloque_titulos subtitulo-4 blanco">LAVABIBERONES NEUTRO</div>
+                        <div class="centrado bloque_titulos subtitulo-4 blanco">NEUTRO Y LIMÓN</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Jabón líquido neutro sin fragancia para biberones.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Biberones</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/>Jabón líquido neutro sin fragancia para biberones.<br/>Con fragancia limón para vajilla y cristalería.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Biberones y vajillas en general.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Una pequeña cantidad produce una alta espuma.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">

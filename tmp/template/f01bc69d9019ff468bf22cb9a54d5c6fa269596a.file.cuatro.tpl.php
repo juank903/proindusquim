@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-11 21:17:14
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:55:35
          compiled from "C:\xampp\htdocs\proindusquim\views\industrial\cuatro.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:48765489fbca550d84-19930359%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f01bc69d9019ff468bf22cb9a54d5c6fa269596a' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\industrial\\cuatro.tpl',
-      1 => 1418305694,
+      1 => 1420577732,
       2 => 'file',
     ),
   ),
@@ -15,6 +15,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'function' => 
   array (
   ),
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_5489fbca5f1028_34797194',
   'variables' => 
   array (
     '_layoutParams' => 0,
@@ -22,8 +24,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'css' => 0,
   ),
   'has_nocache_code' => false,
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5489fbca5f1028_34797194',
 ),false); /*/%%SmartyHeaderCode%%*/?>
 <?php if ($_valid && !is_callable('content_5489fbca5f1028_34797194')) {function content_5489fbca5f1028_34797194($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
 <div id="banner_principal">
@@ -57,10 +57,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CLORO EN POLVO TRICLORO 90%</div>
                             <div class="descripcion_productos">
+                                 <p><b class="rojo">(Hipoclorito de calcio 65%-70% o Tricloro Cianurato)</b><br/>
                                 <p><b class="rojo">Descripción:</b><br/>Cloro granular para mantener desinfectada el agua, libre de bacterias y microrganismos peligrosos para la salud humana.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>En piscinas, piletas, cisternas de agua potable. Añadir 2g. por m3 de agua, 3 veces a la semana en piscinas y 1 vez por semana en cisternas.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>En piscinas, piletas, cisternas de agua potable. </p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Añadir 2g. por m3 de agua, 3 veces a la semana en piscinas y 1 vez por semana en cisternas.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/piscinas_fichas/CLORO_EN_POLVO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -76,9 +76,8 @@ views/industrial/img/no_disponible.jpg" />
                         <div class="centrado bloque_titulos subtitulo-4 blanco">ALGICIDA LÍQUIDO</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Aditivo base Amonios Cuaternarios que evita la formación de algas adheridas  a la cerámica, emporado, tuberías y equipos de recirculación, permitiendo un mejor funcionamiento de los equipos y obteniéndose un agua trasparente y cristalina.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>En piscinas y piletas. Añadir directamente 1 litro por cada 100m3 de agua. (10 ml por cada m3)</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>---</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>En piscinas y piletas.</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Añadir directamente 1 litro por cada 100m3 de agua. (10 ml. por cada m3)</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/piscinas_fichas/CLORO_EN_POLVO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>

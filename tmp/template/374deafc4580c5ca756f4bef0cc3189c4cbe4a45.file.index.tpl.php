@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-11 20:48:59
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 19:28:27
          compiled from "C:\xampp\htdocs\proindusquim\views\industrial\index.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16005489e68e871727-00946431%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '374deafc4580c5ca756f4bef0cc3189c4cbe4a45' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\industrial\\index.tpl',
-      1 => 1418327337,
+      1 => 1420568901,
       2 => 'file',
     ),
   ),
@@ -59,10 +59,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Detergente liquido concentrado biodegradable.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Lavado de superficies y equipos alimenticios e industriales.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>Limpieza extra fuerte 1:5 (1 con 5 partes de agua)</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Limpieza normal-suave 1:40  (1 con 40 partes de agua)</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Limpieza extra fuerte 1:5 (1 con 5 partes de agua)<br/>Limpieza normal-suave 1:40(1 con 40 partes de agua)
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-public/files/industrial_fichas/DETERCLEAN_500.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
+public/files/industrial_fichas/DETERCLEAN_500.pdf""><br/><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
@@ -75,10 +74,10 @@ views/industrial/img/no_disponible.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">X-30 PLUS</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Limpiador desinfectante neutro base de agua-alcohol y amonios Cuaternarios, limpia y abrillanta.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Limpiador desinfectante neutro base de agua-alcohol y Amonios Cuaternarios, limpia y abrillanta.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Superficies y áreas en general, mesas, sillas, puertas, vidrios, etc.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo aplicando con paño o esponja.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/X-30_PLUS.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -93,10 +92,9 @@ views/industrial/img/x30_plus.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">x-30 NEUTRO</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado neutro, sin olor, a base de amonios cuaternarios.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Superficies y áreas en general, piso, paredes, cuartos fríos.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado neutro, sin olor, a base de Amonios Cuaternarios.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Superficies y áreas en general, pisos, paredes, cuartos fríos.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>1 con 80 partes de agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/X-30_NEUTRO.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -111,10 +109,10 @@ views/industrial/img/no_disponible.jpg" />
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">SANIT-30</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Desinfectante base ácido peracético.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Desinfectante base ácido Peracético.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Limpieza de plantas y equipos en industria láctea y alimenticia, no requiere enjuague posterior.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>2ml ó 2g. por litro de agua.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/industrial_fichas/SANIT-30.pdf""><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>

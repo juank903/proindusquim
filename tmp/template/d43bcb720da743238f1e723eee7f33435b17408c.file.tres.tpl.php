@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 02:15:23
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 19:09:30
          compiled from "C:\xampp\htdocs\proindusquim\views\automotriz\tres.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:274875489a2bdea4980-63341902%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd43bcb720da743238f1e723eee7f33435b17408c' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\automotriz\\tres.tpl',
-      1 => 1418346871,
+      1 => 1420567767,
       2 => 'file',
     ),
   ),
@@ -56,7 +56,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CREMIX</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Crema desengrasante de manos con efecto humectante y desinfectante con fragancia a naranja.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Uso directo. Para retirarla utilice papel, paño o enjuague con agua</p><br/>
+                            <p><b class="rojo">Aplicación:</b><br/>Uso directo.<br/>Para retirarla utilice papel, paño o enjuague con agua</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/automotriz_fichas/CREMIX_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

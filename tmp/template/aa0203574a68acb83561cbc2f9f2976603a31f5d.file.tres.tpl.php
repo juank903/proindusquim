@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 00:49:47
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:39:17
          compiled from "C:\xampp\htdocs\proindusquim\views\construccion\tres.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:25752548a23bbc7e170-25793725%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'aa0203574a68acb83561cbc2f9f2976603a31f5d' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\construccion\\tres.tpl',
-      1 => 1418341634,
+      1 => 1420576755,
       2 => 'file',
     ),
   ),
@@ -60,7 +60,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                             <p><b class="rojo">Descripción:</b><br/>Sellador acrílico impermeable. Alta resistencia al rayado y rayos UV.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Granito, metal, piedra, pizarra, concreto visto, gres y adoquín.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Aplicación directa.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho, Producto Inflamable.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Producto Inflamable.<br/>Utilizar guantes de caucho.</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -76,8 +76,8 @@ views/construccion/img/selladoracrilico.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Aceite protector de madera rústica.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Madera sin lacar en techos y fachadas.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Aplicación directa ó 1-1 con diesel. Puede mezclarse 1 a 1 con MK Madera para tratar con antipolilla.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho. Producto Inflamable.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Aplicación directa ó 1-1 con diesel. Puede mezclarse 1 a 1 con MK Madera para tratar tambien con antipolilla.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Producto Inflamable.<br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/construccion_fichas/MK_LINAZA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
@@ -95,7 +95,7 @@ views/construccion/img/mk_linaza.jpg" />
                             <p><b class="rojo">Descripción:</b><br/>Protector antipolilla de madera, base solvente y Cipermetrinas. NO CONTIENE PENTACLOROFENOL.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Superficies y estructuras de madera sin lacar.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho. Producto Inflamable.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Producto Inflamable.<br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/construccion_fichas/MK-MADERA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

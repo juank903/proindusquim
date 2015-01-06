@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 01:54:03
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:23:46
          compiled from "C:\xampp\htdocs\proindusquim\views\institucional_hogar\cuatro.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:9394548a3aed80e179-13896693%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'db1b8267301a5ee9bd65201993b381d6527e4805' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\institucional_hogar\\cuatro.tpl',
-      1 => 1418345637,
+      1 => 1420575824,
       2 => 'file',
     ),
   ),
@@ -111,7 +111,7 @@ views/institucional_hogar/img/viruta.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado con fragancia y base de Amonios Cuaternarios.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pisos, baños, lavabos e higiénicos.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Como desinfectante diluir 1 parte con 20 partes de agua. Como sanitizante diluir 1 parte con 40 partes de agua.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Como desinfectante diluir 1 parte con 20 partes de agua.<br/>Como sanitizante diluir 1 parte con 40 partes de agua.</p><br/>
                             <p><a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/files/institucional_fichas/KRIK_X-30_AROMA_CALIPTTO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>

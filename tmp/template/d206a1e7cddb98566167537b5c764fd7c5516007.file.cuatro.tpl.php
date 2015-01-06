@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-12 01:08:27
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:41:31
          compiled from "C:\xampp\htdocs\proindusquim\views\construccion\cuatro.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:4895548a23c46c40b7-68085139%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'd206a1e7cddb98566167537b5c764fd7c5516007' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\construccion\\cuatro.tpl',
-      1 => 1418342898,
+      1 => 1420576888,
       2 => 'file',
     ),
   ),
@@ -59,8 +59,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Silicona acética transparente.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pegante y sellante de vidrio y aluminio.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Uso directo previa limpieza de la superficie con alcohol.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                            <p><b class="rojo">Aplicación:</b><br/>Uso directo previa limpieza de la superficie con alcohol.</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -76,8 +75,7 @@ views/construccion/img/no_disponible.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Adhesivo para ensamblaje de alta resistencia de uso múltiple en madera, papel, cartón, etc.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Especialmente para usos de artesanía y manualidades. Puede aplicarse sobre madera, cerámica, tela, papel, cartulina, cartón, etc.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
+                            <p><b class="rojo">Aplicación:</b><br/>Uso directo.</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -93,7 +91,7 @@ views/construccion/img/flexit2.jpg" />
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Cola blanca de uso múltiple en madera, cartón y papel, resistencia normal.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Especialmente para usos de artesanía y manualidades. Puede aplicarse sobre madera, cerámica, tela, papel, cartulina, cartón, etc.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
+                            <p><b class="rojo">Aplicación:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
