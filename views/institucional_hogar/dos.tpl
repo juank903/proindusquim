@@ -47,8 +47,8 @@
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desinfectante y blanqueador.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Textiles, baños y cocinas.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>Blanquear ¼ de taza en 4 litros de agua. Limpiar ½ tasa en 4 litros. Desinfectar 1 taza en 4 litros.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>Blanquear ¼ de taza en 4 litros de agua.<br/> Limpiar ½ tasa en 4 litros.<br/> Desinfectar 1 taza en 4 litros.</p><br/>
+                                <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_CLORO_100_AL_5.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -77,9 +77,9 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">DS-30</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Limpiador desengrasante multiuso.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc. Para reforzar lavado de ropa en máquina o manual.</p><br/>
+                            <p><b class="rojo">Usos:</b><br/>Superficies en general, muebles, tapicería, puertas, ascensores, aluminio, pasamanos, moquetas, etc.<br/>Para reforzar lavado de ropa en máquina o manual.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>5-10 partes de agua.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_DS-30.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

@@ -78,7 +78,7 @@
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Desinfectante concentrado con fragancia y base de Amonios Cuaternarios.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pisos, baños, lavabos e higiénicos.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Como desinfectante diluir 1 parte con 20 partes de agua. Como sanitizante diluir 1 parte con 40 partes de agua.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Como desinfectante diluir 1 parte con 20 partes de agua.<br/>Como sanitizante diluir 1 parte con 40 partes de agua.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_X-30_AROMA_CALIPTTO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

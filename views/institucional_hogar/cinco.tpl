@@ -33,7 +33,7 @@
                             <p><b class="rojo">Descripción:</b><br/>Es un desinfectante concentrado con efecto bactericida, fungicida, virucida y desodorizante, formulado con Amonios Cuaternarios.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Limpieza y desinfección de pisos, paredes, baños, cocinas y habitaciones, lavabos e higiénicos.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo aplicando con paño o esponja.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_X-30_PLUS.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -49,7 +49,6 @@
                                 <p><b class="rojo">Descripción:</b><br/>Aceite protector siliconado con fragancia naranja</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Muebles de madera en general y lacados.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                                <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                                 <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                             </div>
                             <div class="imagen_productos">
@@ -65,7 +64,7 @@
                             <p><b class="rojo">Descripción:</b><br/>Destapador alcalino líquido.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Desagües, lavabos y sanitarios en general.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Producto de uso delicado. Leer bien las instrucciones antes de utilizar. Utilizar Guantes de caucho.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Producto de uso delicado.<br/>Leer bien las instrucciones antes de utilizar.<br/>Utilizar guantes de caucho.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/institucional_fichas/KRIK_DESTAPOL.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
