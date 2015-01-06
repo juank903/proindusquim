@@ -30,7 +30,7 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CREMIX</div>
                             <div class="descripcion_productos">
-                                <p><b class="rojo">Descripción:</b><br/>Crema desengrasante de manos on efecto humectante y desinfectante con fragancia a naranja.</p><br/>
+                                <p><b class="rojo">Descripción:</b><br/>Crema desengrasante de manos con efecto humectante y desinfectante con fragancia a naranja.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>Uso directo.<br/> Para retirarla utilice papel, paño o enjuague con agua.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/CREMIX.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
@@ -45,7 +45,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">REGULADOR pH ALCALINO EN POLVO</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Aditivo alcalinízante elevador de pH</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas ácidas de piscinas y piletas decorativas. Regula el pH Manteniéndolo entre 6.5 -7 rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas ácidas de piscinas y piletas decorativas.<br/> Regula el pH Manteniéndolo entre 6,5 - 7, rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
                                 <p><b class="rojo">Aplicación:</b><br/>Solicitar ficha técnica e instrucciones de uso al fabricante.</p><br/>
                                 <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                             </div>
@@ -60,7 +60,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">REGULADOR pH ÁCIDO EN POLVO</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Aditivo acificante reductor de ph</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas alcalinas en piscinas y piletas decorativas. Regula el PH. Manteniéndolo entre 6.5 -7 rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Regulación de aguas alcalinas en piscinas y piletas decorativas. Regula el pH. Manteniéndolo entre 6,5 - 7, rango óptimo para evitar resequedad de la piel e irritación de los ojos.</p><br/>
                                 <p><b class="rojo">Aplicación:</b><br/>Solicitar ficha técnica e instrucciones de uso al fabricante.</p><br/>
                                 <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                             </div>
@@ -77,7 +77,7 @@
                                 <p><b class="rojo">(Diclorocianurato al 90%)</b><br/>
                                 <p><b class="rojo">Descripción:</b><br/>Cloro en pastillas para mantener desinfectada el agua, libre de bacterias y microrganismos peligrosos para la salud humana.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>En piscinas y piletas.</p><br/>
-                                <p><b class="rojo">Aplicación:<br/> Colocar una pastilla en la rejilla de rebalse.</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/> Colocar una pastilla en la rejilla de rebalse.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/piscinas_fichas/CLORO_EN_PASTILLAS_TRICOLORO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">

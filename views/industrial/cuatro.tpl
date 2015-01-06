@@ -48,7 +48,7 @@
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Aditivo base Amonios Cuaternarios que evita la formación de algas adheridas  a la cerámica, emporado, tuberías y equipos de recirculación, permitiendo un mejor funcionamiento de los equipos y obteniéndose un agua trasparente y cristalina.</p><br/>
                                 <p><b class="rojo">Usos:</b><br/>En piscinas y piletas.</p><br/>
-                                <p><b class="rojo">Aplicación:</b><br/>Añadir directamente 1 litro por cada 100m3 de agua. (10 ml por cada m3)</p><br/>
+                                <p><b class="rojo">Aplicación:</b><br/>Añadir directamente 1 litro por cada 100m3 de agua. (10 ml. por cada m3)</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/piscinas_fichas/CLORO_EN_POLVO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">

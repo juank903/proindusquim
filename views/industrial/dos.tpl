@@ -53,7 +53,7 @@
                             </div>
                             <div class="imagen_productos">
                                 <img src="{$_layoutParams.root}views/industrial/img/no_disponible.jpg" />
-                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div> <div class="cuadro_presentacion">200 lt</div></div>
+                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div> <div class="cuadro_presentacion">220 lt</div></div>
                             </div>
                     </div>
                 </div>
@@ -62,13 +62,13 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">PROSOLVEX INDUSTRIAL</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante concentrado emulsionable, base solvente.</p><br/>
-                                <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasa y suciedad acumulada. Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
+                                <p><b class="rojo">Usos:</b><br/>Pulverizado de motores y limpieza de áreas, elimina grasa y suciedad acumulada.<br/> Dejar actuar 10 minutos y luego enjuagar con agua a presión.</p><br/>
                                 <p><b class="rojo">Dilución:</b><br/>1 con 1 parte de agua.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/PROSOLVEX_INDUSTRIAL.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
                                 <img src="{$_layoutParams.root}views/industrial/img/no_disponible.jpg" />
-                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">200 lt</div></div>
+                                <div class="valores_presentacion"><b class="bloque_titulos blanco">Presentación:</b><br/><div class="cuadro_presentacion">4 lt</div><div class="cuadro_presentacion">20 lt</div><div class="cuadro_presentacion">220 lt</div></div>
                             </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">BIO PROSOLVEX</div>
                             <div class="descripcion_productos">
                                 <p><b class="rojo">Descripción:</b><br/>Desengrasante-Descarbonizante de motores, partes y piezas, plásticos e interiores de vehículos, base agua biodegradable.</p><br/>
-                                <p><b class="rojo">Dilución:</b><br/>1 con 5 partes de agua para descarbonizar y de 1 con 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
+                                <p><b class="rojo">Dilución:</b><br/>De 1 a 5 partes de agua para descarbonizar y de 1 a 10 partes de agua para limpieza manual o máquina de presión.</p><br/>
                                 <p><a href="{$_layoutParams.root}public/files/industrial_fichas/PROSOLVEX_BIO.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                             </div>
                             <div class="imagen_productos">
