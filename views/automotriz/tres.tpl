@@ -31,7 +31,7 @@
                         <div class="centrado bloque_titulos subtitulo-4 blanco">CREMIX</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Crema desengrasante de manos con efecto humectante y desinfectante con fragancia a naranja.</p><br/>
-                            <p><b class="rojo">Usos:</b><br/>Uso directo. Para retirarla utilice papel, paño o enjuague con agua</p><br/>
+                            <p><b class="rojo">Aplicación:</b><br/>Uso directo.<br/>Para retirarla utilice papel, paño o enjuague con agua</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/automotriz_fichas/CREMIX_FCF.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">

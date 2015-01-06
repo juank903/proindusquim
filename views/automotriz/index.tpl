@@ -28,7 +28,7 @@
             <div id="barra_productos_derecha">
                 <div class="left-footer-productos">
                     <div class="cuadro_productos">
-                        <div class="centrado bloque_titulos subtitulo-4 blanco">CHAMPU</div>
+                        <div class="centrado bloque_titulos subtitulo-4 blanco">CHAMPÚ</div>
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Champú de autos alta espuma con efecto abrillantador. </p><br/>
                             <p><b class="rojo">Usos:</b><br/>Lavado manual o con máquina de todo tipo de vehículos y transporte.</p><br/>
