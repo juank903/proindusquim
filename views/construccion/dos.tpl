@@ -60,7 +60,7 @@
                     <div class="cuadro_productos">
                         <div class="centrado bloque_titulos subtitulo-4 blanco">MK IMPERFLEX</div>
                         <div class="descripcion_productos">
-                            <p><b class="rojo">Descripción:</b><br/>Impermeabilizante base acrílica, elastomerico, reforzado con plastificantes. Acabado color blanco.</p><br/>
+                            <p><b class="rojo">Descripción:</b><br/>Impermeabilizante base acrílica, elastomérico, reforzado con plastificantes. Acabado color blanco.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Jardineras, grietas, goteras, terrazas y losas.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo sin diluir.</p><br/>
                             <p><b class="rojo">Precauciones:</b><br/>No  utilizar en cisternas de agua o reservorios de consumo humano y animal.</p><br/>

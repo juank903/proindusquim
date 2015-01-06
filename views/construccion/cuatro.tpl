@@ -33,7 +33,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Silicona acética transparente.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Pegante y sellante de vidrio y aluminio.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo previa limpieza de la superficie con alcohol.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -49,7 +48,6 @@
                             <p><b class="rojo">Descripción:</b><br/>Adhesivo para ensamblaje de alta resistencia de uso múltiple en madera, papel, cartón, etc.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Especialmente para usos de artesanía y manualidades. Puede aplicarse sobre madera, cerámica, tela, papel, cartulina, cartón, etc.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Uso directo.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>---</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">

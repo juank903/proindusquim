@@ -33,7 +33,7 @@
                             <p><b class="rojo">Descripción:</b><br/>Sellador acrílico impermeable. Alta resistencia al rayado y rayos UV.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Granito, metal, piedra, pizarra, concreto visto, gres y adoquín.</p><br/>
                             <p><b class="rojo">Dilución:</b><br/>Aplicación directa.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho, Producto Inflamable.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.<br/> Producto Inflamable.</p><br/>
                             <p><b class="rojo">FICHA TÉCNICA NO DISPONIBLE</b></p><br/>
                         </div>
                         <div class="imagen_productos">
@@ -48,8 +48,8 @@
                         <div class="descripcion_productos">
                             <p><b class="rojo">Descripción:</b><br/>Aceite protector de madera rústica.</p><br/>
                             <p><b class="rojo">Usos:</b><br/>Madera sin lacar en techos y fachadas.</p><br/>
-                            <p><b class="rojo">Dilución:</b><br/>Aplicación directa ó 1-1 con diesel. Puede mezclarse 1 a 1 con MK Madera para tratar con antipolilla.</p><br/>
-                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho. Producto Inflamable.</p><br/>
+                            <p><b class="rojo">Dilución:</b><br/>Aplicación directa ó 1-1 con diesel. Puede mezclarse 1 a 1 con MK Madera para tratar tambien con antipolilla.</p><br/>
+                            <p><b class="rojo">Precauciones:</b><br/>Utilizar Guantes de caucho.<br/> Producto Inflamable.</p><br/>
                             <p><a href="{$_layoutParams.root}public/files/construccion_fichas/MK_LINAZA.pdf"><b class="rojo">DESCARGAR FICHA TÉCNICA</b></a></p><br/>
                         </div>
                         <div class="imagen_productos">
