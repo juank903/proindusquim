@@ -58,18 +58,7 @@ border-radius: 10px;
 float:right;
 width:873px;
 height: 70px;
-background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #7CBA5D),
-	color-stop(0.81, #799D68)
-);
-background-image: -o-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: -moz-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: -webkit-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: -ms-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: linear-gradient(to bottom, #7CBA5D 0%, #799D68 81%);
+background: #3c9455;
 }
 #logotipo{
 float: left;
@@ -88,7 +77,8 @@ display: table;
 text-align: center;
 }
 .botones_menu_principal{
-color:#303823;
+/*color:#303823;*/
+color:white;
 padding: 10px;
 width: 180px;
 display: table-cell;
@@ -171,41 +161,42 @@ font-size:1.4em;
 font-weight: bold;
 }
 .caja_1{
-width: 300px;
+/*width: 300px;*/
 height: 30px;
-background: #444;
+/*background: #444;*/
 margin-bottom: 15px;
 display: block;
 }
 .caja_2{
-width: 300px;
+/*width: 300px;*/
 height: 150px;
-background: #444;
+/*background: #444;*/
 margin-bottom: 15px;
 }
 .etiqueta_formulario{
 position:absolute;
-color:white;
+color:black;
 font-size: 0.8em;
 }
 .estilo_input{
-width:230px;
-background: #666;
+width:150px;
+/*background: #666;*/
 height: 20px;
 padding:5px 5px 5px 65px;
 }
 .estilo_textarea{
-width:230px;
-background: #666;
+width:150px;
+/*background: #666;*/
 height: 140px;
 padding:5px 5px 5px 65px;
+overflow-y:auto;
 }
 .estilo_button{
 font-weight: bold;
 font-size:12px;
 padding: 4px 10px 4px 10px;
-color:#595959;
-background: #BFE18B;
+color:#FFF;
+background: #3c9455;
 }
 .estilo_button:hover{
 color:#000;
@@ -403,6 +394,4 @@ border: solid 1px #3c9455;
 color: white;
 cursor:pointer;
 }
-
-
 

@@ -1,31 +1,29 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:17:31
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-21 20:37:35
          compiled from "C:\xampp\htdocs\proindusquim\views\institucional_hogar\dos.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:17292548a3612ba2332-85713245%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:718554bfffffa412a7-32822895%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     'f180b520c9a4574b7d14b537825821274b7be299' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\institucional_hogar\\dos.tpl',
-      1 => 1420575449,
+      1 => 1421776350,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '17292548a3612ba2332-85713245',
+  'nocache_hash' => '718554bfffffa412a7-32822895',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_548a3612d05b15_21758274',
   'variables' => 
   array (
     '_layoutParams' => 0,
-    'js' => 0,
-    'css' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_54bfffffbd3882_17538109',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_548a3612d05b15_21758274')) {function content_548a3612d05b15_21758274($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
+<?php if ($_valid && !is_callable('content_54bfffffbd3882_17538109')) {function content_54bfffffbd3882_17538109($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
 <div id="banner_principal">
 </div>
 <!-- fin slider en todas las páginas-->
@@ -150,46 +148,4 @@ institucional_hogar/cinco">5</a>
         <!-- fin sección descripción productos-->
     </div>
 </div>
-<!-- fin contenedor noticias dinámico -->
-<!-- inicio menú íconos -->
-<div id="menu_iconos">
-    <!-- inicio sección descripción productos-->
-    <div id="barra_productos">
-        <div id="barra_iconos">
-            <div class="cuadrado">
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
-            </div>    
-        </div>            
-    </div>
-    <!-- fin sección descripción productos-->
-</div> 
-<!-- inicio de parámetros para cargar js y css-->
-        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])){?>
-            <?php  $_smarty_tpl->tpl_vars['js'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['js']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['js']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['js']->key => $_smarty_tpl->tpl_vars['js']->value){
-$_smarty_tpl->tpl_vars['js']->_loop = true;
-?>
-                <script src="<?php echo $_smarty_tpl->tpl_vars['js']->value;?>
-" type="text/javascript"></script>
-            <?php } ?>
-        <?php }?>
-
-        <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['css'])){?>
-            <?php  $_smarty_tpl->tpl_vars['css'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['css']->_loop = false;
- $_from = $_smarty_tpl->tpl_vars['_layoutParams']->value['css']; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}
-foreach ($_from as $_smarty_tpl->tpl_vars['css']->key => $_smarty_tpl->tpl_vars['css']->value){
-$_smarty_tpl->tpl_vars['css']->_loop = true;
-?>
-                <link href="<?php echo $_smarty_tpl->tpl_vars['css']->value;?>
-" rel="stylesheet" type="text/css">
-            <?php } ?>
-        <?php }?>
-<!-- fin de parámetros para cargar js y css--><?php }} ?>
+<!-- fin contenedor noticias dinámico --><?php }} ?>

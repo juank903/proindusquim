@@ -16,7 +16,7 @@ try{
     $registry = Registry::getInstancia();
     $registry->_request = new Request();
     $registry->_db = new Database(DB_HOST, DB_NAME, DB_USER, DB_PASS, DB_CHAR);
-    $registry->_acl = new ACL();
+    //$registry->_acl = new ACL();
 
     Bootstrap::run($registry->_request);
     /*Bootstrap::run(new Request);*/

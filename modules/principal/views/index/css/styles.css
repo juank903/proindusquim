@@ -32,22 +32,22 @@ html, body {
 }
 
 #container {
-	/* position: fixed; */
-	/* width: 340px; */
-	/* height: 280px; */
-	/* top: 50%; */
-	/* left: 50%; */
-	/* margin-top: -140px; */
-	/* margin-left: -170px; */
-	/* background: #fff; */
-	/* border-radius: 3px; */
-	/* border: 1px solid #ccc; */
-	/* box-shadow: 0 1px 2px rgba(0, 0, 0, .1); */
-	/* -webkit-animation-name: bounceIn; */
-	/* -webkit-animation-fill-mode: both; */
-	/* -webkit-animation-duration: 1s; */
-	/* -webkit-animation-iteration-count: 1; */
-	/* -webkit-animation-timing-function: linear; */
+	position: fixed;
+	width: 340px;
+	height: 280px;
+	top: 50%;
+	left: 50%;
+	margin-top: -140px;
+	margin-left: -170px;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+	-webkit-animation-name: bounceIn;
+	-webkit-animation-fill-mode: both;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	-webkit-animation-timing-function: linear;
 	-moz-animation-name: bounceIn;
 	-moz-animation-fill-mode: both;
 	-moz-animation-duration: 1s;

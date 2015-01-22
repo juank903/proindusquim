@@ -8,7 +8,8 @@
 		$(document).ready(function(){	
 			$("#slider").easySlider({
 				auto: true,
-				continuous: true 
+				continuous: true,
+                                speed: 5000
 			});
 		});	
 	</script>
@@ -37,6 +38,10 @@
                         <li>Distribución a nivel nacional de productos o líneas complementarias.</li>
                     </ul>
                 </div>
+                <div class="contenido_pendiente">
+                </div>
+                <div class="contenido_pendiente">
+                </div>                
             </div>
             <!-- script de funcionamiento del slider de descripción de la empresa-->
             <script type="text/javascript">		

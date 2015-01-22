@@ -13,7 +13,7 @@ class industrialController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_industrial','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('index', 'inicio');
         
     }
@@ -24,7 +24,7 @@ class industrialController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_industrial','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('dos', 'index');
         
     }
@@ -35,7 +35,7 @@ class industrialController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_industrial','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('tres', 'index');
         
     }
@@ -46,7 +46,7 @@ class industrialController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_industrial','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('cuatro', 'index');
         
     }        

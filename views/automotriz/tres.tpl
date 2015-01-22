@@ -60,18 +60,3 @@
     </div>
 </div>
 <!-- fin contenedor noticias dinámico -->
-<!-- inicio menú íconos -->
-<div id="menu_iconos">
-    <!-- inicio sección descripción productos-->
-    <div id="barra_productos">
-        <div id="barra_iconos">
-            <div class="cuadrado">
-                <a href="{$_layoutParams.root}automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="{$_layoutParams.root}industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="{$_layoutParams.root}construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="{$_layoutParams.root}institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
-            </div>    
-        </div>            
-    </div>
-    <!-- fin sección descripción productos-->
-</div> 

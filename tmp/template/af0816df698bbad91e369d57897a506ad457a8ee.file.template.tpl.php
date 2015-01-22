@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-11-12 04:33:12
+<?php /* Smarty version Smarty-3.1.8, created on 2014-10-03 06:10:02
          compiled from "/var/www/proindusquim/views/layout/default/template.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:60071752853f36654cc0757-16221647%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'af0816df698bbad91e369d57897a506ad457a8ee' => 
     array (
       0 => '/var/www/proindusquim/views/layout/default/template.tpl',
-      1 => 1415783353,
+      1 => 1412334435,
       2 => 'file',
     ),
   ),
@@ -106,11 +106,11 @@ public/img/twitter.png" /></a>
                 <!-- inicio menu principal-->
                 <div class="menu_principal">
                     <div class="contenedor_botones_menu_principal">
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/index">EMPRESA</a>
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/productos">PRODUCTOS</a>
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/desarrollos">DESARROLLOS</a>
-                        <a class="botones_menu_principal " href="/proindusquim/tips_uso">TIPS DE USO</a>
+                        <a class="botones_menu_principal borde_derecho" href="index">EMPRESA</a>
+                        <a class="botones_menu_principal borde_derecho" href="productos">PRODUCTOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
+                        <a class="botones_menu_principal borde_derecho" href="desarrollos">DESARROLLOS</a>
+                        <a class="botones_menu_principal " href="tips_uso">TIPS DE USO</a>
 
                     </div>
                 </div>

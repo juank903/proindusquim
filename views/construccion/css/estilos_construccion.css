@@ -23,6 +23,7 @@ overflow: hidden;
 border-left:2px solid #a7d093;
 border-right: 2px solid #FFF;
 width: 350px;
+height: 470px;
 }
 #menu_iconos{
 margin-top: 30px;
@@ -60,26 +61,26 @@ display:inline-block;
 background-image: url('../img/ico_linea_automotriz_org.png');
 }
 .boton_automotriz:hover{
-background-image: url('../img/ico_linea_automotriz_hvr.png');
+background-image: url('../img/ico_linea_automotriz_org.png');
 }
 .boton_industrial{
 display:inline-block;
 background-image: url('../img/ico_linea_industrial_org.png');
 }
 .boton_industrial:hover{
-background-image: url('../img/ico_linea_industrial_hvr.png');
+background-image: url('../img/ico_linea_industrial_org.png');
 }
 .boton_construccion{
 display:inline-block;
 background-image: url('../img/ico_linea_construccion_org.png');
 }
 .boton_construccion:hover{
-background-image: url('../img/ico_linea_construccion_hvr.png');
+background-image: url('../img/ico_linea_construccion_org.png');
 }
 .boton_hogar{
 display:inline-block;
 background-image: url('../img/ico_linea_hogar_org.png');
 }
 .boton_hogar:hover{
-background-image: url('../img/ico_linea_hogar_hvr.png');
+background-image: url('../img/ico_linea_hogar_org.png');
 }

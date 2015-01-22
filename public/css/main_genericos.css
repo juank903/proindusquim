@@ -1,0 +1,17 @@
+.boton_pagina a, .actual_boton_pagina{
+text-align: center;    
+width: 20px;
+height: 20px;
+float:left;
+background: white;
+border: solid 1px #3c9455;
+padding: 3px;
+color:#666;
+font-weight: bold;
+}
+.boton_pagina a:hover, .actual_boton_pagina{
+background: #3c9455;
+border: solid 1px #3c9455;
+color: white;
+cursor:pointer;
+}

@@ -1,29 +1,29 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2015-01-06 21:43:28
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-21 21:42:14
          compiled from "C:\xampp\htdocs\proindusquim\views\automotriz\index.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:265535489a2ab03bfe7-17142892%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2670154c00f269baa15-27538138%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '5febccad951af3733d5fa85c2d094982e1711385' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\automotriz\\index.tpl',
-      1 => 1420569054,
+      1 => 1421776350,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '265535489a2ab03bfe7-17142892',
+  'nocache_hash' => '2670154c00f269baa15-27538138',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5489a2ab0efb14_62010488',
   'variables' => 
   array (
     '_layoutParams' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.8',
+  'unifunc' => 'content_54c00f27211ce1_77791374',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5489a2ab0efb14_62010488')) {function content_5489a2ab0efb14_62010488($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
+<?php if ($_valid && !is_callable('content_54c00f27211ce1_77791374')) {function content_54c00f27211ce1_77791374($_smarty_tpl) {?><!-- inicio slider en todas las páginas -->
 <div id="banner_principal">
 </div>
 <!-- fin slider en todas las páginas-->
@@ -143,23 +143,4 @@ automotriz/tres">3</a>
         <!-- fin sección descripción productos-->
     </div>
 </div>
-<!-- fin contenedor noticias dinámico -->
-<!-- inicio menú íconos -->
-<div id="menu_iconos">
-    <!-- inicio sección descripción productos-->
-    <div id="barra_productos">
-        <div id="barra_iconos">
-            <div class="cuadrado">
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-automotriz"><div class="boton_icono boton_automotriz"></div></a>
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-industrial"><div class="boton_icono boton_industrial"></div></a>
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-construccion"><div class="boton_icono boton_construccion"></div></a>                      
-                <a href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
-institucional_hogar"><div class="boton_icono boton_hogar"></div></a>  
-            </div>    
-        </div>            
-    </div>
-    <!-- fin sección descripción productos-->
-</div> <?php }} ?>
+<!-- fin contenedor noticias dinámico --><?php }} ?>

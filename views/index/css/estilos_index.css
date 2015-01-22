@@ -28,6 +28,9 @@ width:120px;
 height: 100px;
 margin-left:10px;
 }
+#features{
+height:600px;
+}
 .frame-0 {background:#8FA968;}
 .frame-1 {background:#BFE18B;}
 .frame-2 {background:#CAE5A1;}

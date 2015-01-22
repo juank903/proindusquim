@@ -29,19 +29,19 @@ speed :				time each slide is shown [integer, milliseconds, defaults to 3000]
 		// default global vars
 		var config = {
 			animatePause : true,
-			autoPlay : false,
+			autoPlay : true,
 			changeSpeed : 600,
 			controls : true,
 			controlText : {
-				play :		'Play',
-				pause :		'Pause',
-				next :		'Next',
-				previous :	'Previous'
+				play :		'',
+				pause :		'',
+				next :		'',
+				previous :	''
 			},
 			effect : 'fade',
 			hoverPause : true,
 			links : true,
-			speed : 3000
+			speed : 7000
 		};
 		
 		// merge default global variables with custom variables, modifying 'config'

@@ -64,18 +64,7 @@ border-radius: 10px;
 float:right;
 width:873px;
 height: 70px;
-background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #7CBA5D),
-	color-stop(0.81, #799D68)
-);
-background-image: -o-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: -moz-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: -webkit-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: -ms-linear-gradient(bottom, #7CBA5D 0%, #799D68 81%);
-background-image: linear-gradient(to bottom, #7CBA5D 0%, #799D68 81%);
+background: #3c9455;
 }
 #logotipo{
 float: left;
@@ -94,7 +83,8 @@ display: table;
 text-align: center;
 }
 .botones_menu_principal{
-color:#303823;
+/*color:#303823;*/
+color:white;
 padding: 10px;
 width: 180px;
 display: table-cell;
@@ -126,28 +116,17 @@ background:#CAE5A1;
 }
 footer{
 min-width: 1100px;
-background-image: -webkit-gradient(
-	linear,
-	left top,
-	left bottom,
-	color-stop(0, #7CBA5D),
-	color-stop(0.36, #799D68)
-);
-background-image: -o-linear-gradient(bottom, #7CBA5D 0%, #799D68 36%);
-background-image: -moz-linear-gradient(bottom, #7CBA5D 0%, #799D68 36%);
-background-image: -webkit-linear-gradient(bottom, #7CBA5D 0%, #799D68 36%);
-background-image: -ms-linear-gradient(bottom, #7CBA5D 0%, #799D68 36%);
-background-image: linear-gradient(to bottom, #7CBA5D 0%, #799D68 36%);
+background:#CAE5A1;
 display: block;
-
 -webkit-box-shadow: 3px 3px 15px #000;
 -moz-box-shadow: 10px 10px 5px #000;
 filter: shadow(color=#000000, direction=135, strength=2);
 }
 #contenedor_footer{
+overflow:hidden;
 margin-left: auto;
 margin-right: auto;
-width: 1100px;    
+width: 1400px;    
 }
 #left-footer{
 margin-top: 30px;
@@ -155,8 +134,14 @@ padding: 20px;
 width: 300px;
 height:100%;
 float: left;
-margin-left:20px;
+margin-left:0px;
 }
+
+.margen_add{
+margin-left:130px !important;
+}
+
+
 .centrado{
 text-align: center;
 margin:0 auto;
@@ -177,41 +162,42 @@ font-size:1.4em;
 font-weight: bold;
 }
 .caja_1{
-width: 300px;
+/*width: 300px;*/
 height: 30px;
-background: #444;
+/*background: #444;*/
 margin-bottom: 15px;
 display: block;
 }
 .caja_2{
-width: 300px;
+/*width: 300px;*/
 height: 150px;
-background: #444;
+/*background: #444;*/
 margin-bottom: 15px;
 }
 .etiqueta_formulario{
 position:absolute;
-color:white;
+color:black;
 font-size: 0.8em;
 }
 .estilo_input{
-width:230px;
-background: #666;
+width:150px;
+/*background: #666;*/
 height: 20px;
 padding:5px 5px 5px 65px;
 }
 .estilo_textarea{
-width:230px;
-background: #666;
+width:150px;
+/*background: #666;*/
 height: 140px;
 padding:5px 5px 5px 65px;
+overflow-y:auto;
 }
 .estilo_button{
 font-weight: bold;
 font-size:12px;
 padding: 4px 10px 4px 10px;
-color:#595959;
-background: #BFE18B;
+color:#FFF;
+background: #3c9455;
 }
 .estilo_button:hover{
 color:#000;
@@ -356,6 +342,11 @@ width: 900px;
 	float: left;
 	padding: 15px 50px 15px 20px;
 	}
+	
+.eddie2 {
+	float: left;
+	padding: 15px 30px 15px 0px;
+	}	
 .jshowoff p.jshowoff-slidelinks {
 	position: absolute;
 	bottom: 5px;
@@ -365,7 +356,7 @@ width: 900px;
 	}
 .jshowoff-slidelinks a, .jshowoff-controls a {
 	display: block;
-	background-color: #000;
+	/*background-color: #000;*/
 	color: #fff;
 	padding: 5px 7px 5px;
 	margin: 5px 0 0 5px;
@@ -385,10 +376,10 @@ width: 900px;
 	color: #000;
 	}
 p.jshowoff-controls {
-	background: #aaa;
+	background: #60884c;
 	overflow: auto;
 	height: 1%;
-	padding: 0 0 5px 5px;
+	/*padding: 0 0 5px 5px;*/
 	margin: 0;
 	-moz-border-radius-bottomleft: 6px;
 	-moz-border-radius-bottomright: 6px;

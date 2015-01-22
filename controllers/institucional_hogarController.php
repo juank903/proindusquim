@@ -13,7 +13,7 @@ class institucional_hogarController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_institucional_hogar','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('index', 'inicio');
     }
     public function dos()
@@ -23,7 +23,7 @@ class institucional_hogarController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_institucional_hogar','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('dos', 'index');
     }
     public function tres()
@@ -33,7 +33,7 @@ class institucional_hogarController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_institucional_hogar','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('tres', 'index');
     }    
     public function cuatro()
@@ -43,7 +43,7 @@ class institucional_hogarController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_institucional_hogar','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('cuatro', 'index');
     }    
     public function cinco()
@@ -53,7 +53,7 @@ class institucional_hogarController extends Controller
         //$this->_view->assign('widget', $this->_view->widget('menu', 'getMenu'));
         $this->_view->setCSS(array('estilos_institucional_hogar','youtube-video-gallery','jquery.fancybox'));
         $this->_view->setJS(array('jquery.youtubevideogallery','jquery.fancybox.pack','jquery.fancybox-media'));
-        $this->_view->setTemplate('default2');
+        $this->_view->setTemplate('default5');
         $this->_view->renderizar('cinco', 'index');
     }    
 }

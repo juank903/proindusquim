@@ -35,28 +35,28 @@ margin-left:0px;
 
 .boton_automotriz{
 display:inline-block;
-background-image: url('../img/ico_linea_automotriz_org.png');
+background-image: url('../img/ico_linea_automotriz_hvr.png');
 }
 .boton_automotriz:hover{
 background-image: url('../img/ico_linea_automotriz_hvr.png');
 }
 .boton_industrial{
 display:inline-block;
-background-image: url('../img/ico_linea_industrial_org.png');
+background-image: url('../img/ico_linea_industrial_hvr.png');
 }
 .boton_industrial:hover{
 background-image: url('../img/ico_linea_industrial_hvr.png');
 }
 .boton_construccion{
 display:inline-block;
-background-image: url('../img/ico_linea_construccion_org.png');
+background-image: url('../img/ico_linea_construccion_hvr.png');
 }
 .boton_construccion:hover{
 background-image: url('../img/ico_linea_construccion_hvr.png');
 }
 .boton_hogar{
 display:inline-block;
-background-image: url('../img/ico_linea_hogar_org.png');
+background-image: url('../img/ico_linea_hogar_hvr.png');
 }
 .boton_hogar:hover{
 background-image: url('../img/ico_linea_hogar_hvr.png');

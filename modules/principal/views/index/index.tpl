@@ -1,5 +1,6 @@
 <!-- inicio slider en todas las páginas -->
-
+<div id="banner_principal">
+</div>
 <!-- fin slider en todas las páginas-->
 </div>
 <!-- fin contenedor de layout de trabajo que viene del template-->

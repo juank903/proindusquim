@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.8, created on 2014-12-11 14:56:58
+<?php /* Smarty version Smarty-3.1.8, created on 2015-01-21 21:04:15
          compiled from "C:\xampp\htdocs\proindusquim\views\layout\default2\template.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:259845489a2aaabf551-94469212%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:2136754c0063f74e1a9-89758579%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0bddaa93b3c5558fd480a7b95dab5f8a796d4ec1' => 
     array (
       0 => 'C:\\xampp\\htdocs\\proindusquim\\views\\layout\\default2\\template.tpl',
-      1 => 1418305695,
+      1 => 1421870161,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '259845489a2aaabf551-94469212',
+  'nocache_hash' => '2136754c0063f74e1a9-89758579',
   'function' => 
   array (
   ),
@@ -27,9 +27,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.8',
-  'unifunc' => 'content_5489a2aaea37b8_22502432',
+  'unifunc' => 'content_54c0063f8ffb82_21581844',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5489a2aaea37b8_22502432')) {function content_5489a2aaea37b8_22502432($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+<?php if ($_valid && !is_callable('content_54c0063f8ffb82_21581844')) {function content_54c0063f8ffb82_21581844($_smarty_tpl) {?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml">
@@ -41,11 +41,24 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 public/img/proindusquim.ico">
         <link href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['ruta_css'];?>
 estilos.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+public/css/main_genericos.css" rel="stylesheet" type="text/css" />
         
         <!-- librerías para galeria de videos-->
         <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/js/jquery-1-9-1.js"></script>
         <!-- fin librerías galeria de videos-->
+        
+<script>
+$(document).ready(function() {
+	$('#showlogin').click(function() {
+	  $('#loginpanel').slideToggle('slow', function() {
+		  $("#triangle_down").toggle(); 
+		  $("#triangle_up").toggle();
+	  });
+	});
+ });
+</script>        
 
         <!-- inicio de parámetros para cargar js y css-->
         <?php if (isset($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])&&count($_smarty_tpl->tpl_vars['_layoutParams']->value['js'])){?>
@@ -89,7 +102,48 @@ public/img/youtube.png" /></a>
                     <div class="icono">
                         <a href="https://twitter.com/Proindusquim"><img src="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
 public/img/twitter.png" /></a>
-                    </div>                    
+                    </div>
+                    
+                    
+<div id="login" style="float:right; margin-left:20px;">
+				<a href="#" id="showlogin" style="color:white; font-size:1.5em;">
+					Contáctenos
+					<span id="triangle_down">&#9660;</span>
+					<span id="triangle_up" style="display:none;">&#9650;</span>	
+				</a>
+						
+				<div id="loginpanel" style="display:none; position:absolute; margin-left:-120px; margin-top:2px; box-shadow: 3px 3px 15px #000; padding:20px; background:#3c9455; z-index:100; border-radius:10px; ">
+                    
+                    <form>
+                       <div class="caja_1">
+                           <div class="etiqueta_formulario">NOMBRE:</div><input type="text" class="estilo_input"  name="nombre"/>
+                       </div>
+                       <div class="caja_1">
+                            <div class="etiqueta_formulario">TELÉFONO:</div><input type="text" class="estilo_input"  name="nombre"/>
+                       </div>
+                       <div class="caja_1">
+                            <div class="etiqueta_formulario">EMAIL:</div><input class="estilo_input" type="text" name="nombre"/>
+                       </div>
+                       <div class="caja_2">
+                            <div class="etiqueta_formulario">MENSAJE:</div><textarea class="estilo_textarea" name="nombre"/></textarea>
+                       </div>
+                       <button type="button" class="estilo_button">ENVIAR</button>
+                    </form>
+                                    
+                                    
+				</div>
+			</div>                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                                       
                 </div>
             </div>
         </div>
@@ -100,11 +154,18 @@ public/img/twitter.png" /></a>
                 <!-- inicio menu principal-->
                 <div class="menu_principal">
                     <div class="contenedor_botones_menu_principal">
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/index">EMPRESA</a>
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/productos">PRODUCTOS</a>
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
-                        <a class="botones_menu_principal borde_derecho" href="/proindusquim/desarrollos">DESARROLLOS</a>
-                        <a class="botones_menu_principal" href="/proindusquim/tips_uso">TIPS DE USO</a>
+                        <a class="botones_menu_principal borde_derecho" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+index">EMPRESA</a>
+                        <a class="botones_menu_principal borde_derecho" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+responsabilidad">RESPONSABILIDAD<br/> SOCIAL</a>
+                        <a class="botones_menu_principal borde_derecho" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+productos">PRODUCTOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+desarrollos">DESARROLLOS</a>
+                        <a class="botones_menu_principal borde_derecho" href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+maquila">MAQUILA</a>
+                        <a class="botones_menu_principal " href="<?php echo $_smarty_tpl->tpl_vars['_layoutParams']->value['root'];?>
+tips_uso"> PROMOCIONES Y<br/>TIPS DE USO</a>
 
                     </div>
                 </div>
